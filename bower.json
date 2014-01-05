@@ -1,6 +1,6 @@
 {
   "name": "angular-i18n",
-  "version": "1.2.8",
+  "version": "1.2.8-build.2070+sha.1bb33cc",
   "ignore": [
     "**/.*",
     "node_modules",
