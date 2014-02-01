@@ -1,6 +1,6 @@
 {
   "name": "angular-i18n",
-  "version": "1.2.11-build.2199+sha.074b067",
+  "version": "1.2.11-build.2200+sha.fd61e22",
   "ignore": [
     "**/.*",
     "node_modules",
