@@ -4,8 +4,8 @@ var PLURAL_CATEGORY = {ZERO: "zero", ONE: "one", TWO: "two", FEW: "few", MANY: "
 $provide.value("$locale", {
   "DATETIME_FORMATS": {
     "AMPMS": [
-      "\u0642\u0628\u0644\u200c\u0627\u0632\u0638\u0647\u0631",
-      "\u0628\u0639\u062f\u0627\u0632\u0638\u0647\u0631"
+      "\u0642.\u0638",
+      "\u0628.\u0638"
     ],
     "DAY": [
       "\u06cc\u06a9\u0634\u0646\u0628\u0647",
@@ -17,13 +17,13 @@ $provide.value("$locale", {
       "\u0634\u0646\u0628\u0647"
     ],
     "MONTH": [
-      "\u0698\u0627\u0646\u0648\u06cc\u0647\u0654",
-      "\u0641\u0648\u0631\u06cc\u0647\u0654",
+      "\u0698\u0627\u0646\u0648\u06cc\u0647",
+      "\u0641\u0648\u0631\u06cc\u0647",
       "\u0645\u0627\u0631\u0633",
       "\u0622\u0648\u0631\u06cc\u0644",
-      "\u0645\u0647\u0654",
+      "\u0645\u0647",
       "\u0698\u0648\u0626\u0646",
-      "\u0698\u0648\u0626\u06cc\u0647\u0654",
+      "\u0698\u0648\u0626\u06cc\u0647",
       "\u0627\u0648\u062a",
       "\u0633\u067e\u062a\u0627\u0645\u0628\u0631",
       "\u0627\u06a9\u062a\u0628\u0631",
@@ -40,13 +40,13 @@ $provide.value("$locale", {
       "\u0634\u0646\u0628\u0647"
     ],
     "SHORTMONTH": [
-      "\u0698\u0627\u0646\u0648\u06cc\u0647\u0654",
-      "\u0641\u0648\u0631\u06cc\u0647\u0654",
+      "\u0698\u0627\u0646\u0648\u06cc\u0647",
+      "\u0641\u0648\u0631\u06cc\u0647",
       "\u0645\u0627\u0631\u0633",
       "\u0622\u0648\u0631\u06cc\u0644",
-      "\u0645\u0647\u0654",
+      "\u0645\u0647",
       "\u0698\u0648\u0626\u0646",
-      "\u0698\u0648\u0626\u06cc\u0647\u0654",
+      "\u0698\u0648\u0626\u06cc\u0647",
       "\u0627\u0648\u062a",
       "\u0633\u067e\u062a\u0627\u0645\u0628\u0631",
       "\u0627\u06a9\u062a\u0628\u0631",
@@ -55,15 +55,15 @@ $provide.value("$locale", {
     ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",
-    "medium": "d MMM y H:mm:ss",
+    "medium": "d MMM y H:mm:ss a",
     "mediumDate": "d MMM y",
-    "mediumTime": "H:mm:ss",
+    "mediumTime": "H:mm:ss a",
     "short": "yyyy/M/d H:mm",
     "shortDate": "yyyy/M/d",
-    "shortTime": "H:mm"
+    "shortTime": "H:mm a"
   },
   "NUMBER_FORMATS": {
-    "CURRENCY_SYM": "Rial",
+    "CURRENCY_SYM": "ريال",
     "DECIMAL_SEP": "\u066b",
     "GROUP_SEP": "\u066c",
     "PATTERNS": [
