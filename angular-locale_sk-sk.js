@@ -17,18 +17,18 @@ $provide.value("$locale", {
       "sobota"
     ],
     "MONTH": [
-      "janu\u00e1ra",
-      "febru\u00e1ra",
-      "marca",
-      "apr\u00edla",
-      "m\u00e1ja",
-      "j\u00fana",
-      "j\u00fala",
-      "augusta",
-      "septembra",
-      "okt\u00f3bra",
-      "novembra",
-      "decembra"
+      "janu\u00e1r",
+      "febru\u00e1r",
+      "marec",
+      "apr\u00edl",
+      "m\u00e1j",
+      "j\u00fan",
+      "j\u00fal",
+      "august",
+      "september",
+      "okt\u00f3ber",
+      "november",
+      "december"
     ],
     "SHORTDAY": [
       "ne",
