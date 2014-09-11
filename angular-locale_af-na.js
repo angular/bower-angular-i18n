@@ -58,18 +58,19 @@ $provide.value("$locale", {
     "medium": "d MMM y HH:mm:ss",
     "mediumDate": "d MMM y",
     "mediumTime": "HH:mm:ss",
-    "short": "y-MM-dd HH:mm",
-    "shortDate": "y-MM-dd",
+    "short": "yyyy-MM-dd HH:mm",
+    "shortDate": "yyyy-MM-dd",
     "shortTime": "HH:mm"
   },
   "NUMBER_FORMATS": {
-    "CURRENCY_SYM": "$",
+    "CURRENCY_SYM": "R",
     "DECIMAL_SEP": ",",
     "GROUP_SEP": "\u00a0",
     "PATTERNS": [
       {
         "gSize": 3,
         "lgSize": 3,
+        "macFrac": 0,
         "maxFrac": 3,
         "minFrac": 0,
         "minInt": 1,
@@ -81,17 +82,18 @@ $provide.value("$locale", {
       {
         "gSize": 3,
         "lgSize": 3,
+        "macFrac": 0,
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4\u00a0-",
-        "negSuf": "",
-        "posPre": "\u00a4\u00a0",
+        "negPre": "(\u00a4",
+        "negSuf": ")",
+        "posPre": "\u00a4",
         "posSuf": ""
       }
     ]
   },
   "id": "af-na",
-  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n) {  if (n == 1) {   return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
