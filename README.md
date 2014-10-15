@@ -17,7 +17,7 @@ npm install angular-i18n
 Add a `<script>` to your `index.html`:
 
 ```html
-<script src="/node_modules/angular-i18n/angular-i18n/angular-locale_YOUR-LOCALE.js"></script>
+<script src="/node_modules/angular-i18n/angular-locale_YOUR-LOCALE.js"></script>
 ```
 
 Note that this package is not in CommonJS format, so doing `require('angular-i18n')` will
@@ -32,7 +32,7 @@ bower install angular-i18n
 Add a `<script>` to your `index.html`:
 
 ```html
-<script src="/bower_components/angular-i18n/angular-i18n/angular-locale_YOUR-LOCALE.js"></script>
+<script src="/bower_components/angular-i18n/angular-locale_YOUR-LOCALE.js"></script>
 ```
 
 ## Documentation
