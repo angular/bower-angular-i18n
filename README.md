@@ -8,7 +8,7 @@ Please file issues and pull requests against that repo.
 
 You can install this package either with `npm` or with `bower`.
 
-# npm
+### npm
 
 ```shell
 npm install angular-i18n
@@ -23,7 +23,7 @@ Add a `<script>` to your `index.html`:
 Note that this package is not in CommonJS format, so doing `require('angular-i18n')` will
 return `undefined`.
 
-# bower
+### bower
 
 ```shell
 bower install angular-i18n
