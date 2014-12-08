@@ -79,19 +79,19 @@ $provide.value("$locale", {
         "posSuf": ""
       },
       {
-        "gSize": 3,
+        "gSize": 2,
         "lgSize": 3,
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4-",
-        "negSuf": "",
-        "posPre": "\u00a4",
-        "posSuf": ""
+        "negPre": "-",
+        "negSuf": "\u00a4",
+        "posPre": "",
+        "posSuf": "\u00a4"
       }
     ]
   },
   "id": "ml-in",
-  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
