@@ -31,36 +31,36 @@ $provide.value("$locale", {
       "diciembre"
     ],
     "SHORTDAY": [
-      "dom",
-      "lun",
-      "mar",
-      "mi\u00e9",
-      "jue",
-      "vie",
+      "dom.",
+      "lun.",
+      "mar.",
+      "mi\u00e9r.",
+      "jue.",
+      "vier.",
       "s\u00e1b"
     ],
     "SHORTMONTH": [
-      "ene",
-      "feb",
-      "mar",
-      "abr",
-      "may",
-      "jun",
-      "jul",
-      "ago",
-      "sep",
-      "oct",
-      "nov",
-      "dic"
+      "ene.",
+      "febr.",
+      "mzo.",
+      "abr.",
+      "my.",
+      "jun.",
+      "jul.",
+      "ag.",
+      "set.",
+      "oct.",
+      "nov.",
+      "dic."
     ],
     "fullDate": "EEEE, d 'de' MMMM 'de' y",
     "longDate": "d 'de' MMMM 'de' y",
-    "medium": "dd/MM/y H:mm:ss",
+    "medium": "dd/MM/y HH:mm:ss",
     "mediumDate": "dd/MM/y",
-    "mediumTime": "H:mm:ss",
-    "short": "dd/MM/yy H:mm",
+    "mediumTime": "HH:mm:ss",
+    "short": "dd/MM/yy HH:mm",
     "shortDate": "dd/MM/yy",
-    "shortTime": "H:mm"
+    "shortTime": "HH:mm"
   },
   "NUMBER_FORMATS": {
     "CURRENCY_SYM": "$",
@@ -92,6 +92,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "es-mx",
-  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
