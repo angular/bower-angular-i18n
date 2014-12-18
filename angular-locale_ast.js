@@ -38,15 +38,15 @@ $provide.value("$locale", {
       "de xineru",
       "de febreru",
       "de marzu",
-      "d\u2019abril",
+      "d'abril",
       "de mayu",
       "de xunu",
       "de xunetu",
-      "d\u2019agostu",
+      "d'agostu",
       "de setiembre",
-      "d\u2019ochobre",
+      "d'ochobre",
       "de payares",
-      "d\u2019avientu"
+      "d'avientu"
     ],
     "SHORTDAY": [
       "dom",
@@ -71,7 +71,7 @@ $provide.value("$locale", {
       "pay",
       "avi"
     ],
-    "fullDate": "EEEE, d MMMM 'de' y",
+    "fullDate": "EEEE, dd MMMM 'de' y",
     "longDate": "d MMMM 'de' y",
     "medium": "d MMM y HH:mm:ss",
     "mediumDate": "d MMM y",
@@ -110,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ast",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
