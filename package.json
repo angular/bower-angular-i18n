@@ -2,6 +2,7 @@
   "name": "angular-i18n",
   "version": "1.4.0-build.3797+sha.0db5b21",
   "description": "AngularJS module for internationalization",
+  "main": "angular-i18n.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
