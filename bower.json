@@ -4,6 +4,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "components"
+    "components",
+    "precommit.sh"
   ]
 }
