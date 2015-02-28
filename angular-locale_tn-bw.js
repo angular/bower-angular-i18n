@@ -34,7 +34,6 @@ $provide.value("$locale", {
       "Labotlhano",
       "Matlhatso"
     ],
-    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "Ferikgong",
       "Tlhakole",
@@ -71,10 +70,6 @@ $provide.value("$locale", {
       "Dip",
       "Ngw",
       "Sed"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "y MMMM d, EEEE",
     "longDate": "y MMMM d",
