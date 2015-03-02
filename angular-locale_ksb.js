@@ -34,7 +34,6 @@ $provide.value("$locale", {
       "Ijumaa",
       "Jumaamosi"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Januali",
       "Febluali",
@@ -71,10 +70,6 @@ $provide.value("$locale", {
       "Okt",
       "Nov",
       "Des"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
