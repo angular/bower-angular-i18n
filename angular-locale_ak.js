@@ -34,7 +34,6 @@ $provide.value("$locale", {
       "Fida",
       "Memeneda"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Sanda-\u0186p\u025bp\u0254n",
       "Kwakwar-\u0186gyefuo",
@@ -71,10 +70,6 @@ $provide.value("$locale", {
       "\u0186-A",
       "\u0186-O",
       "M-\u0186"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, y MMMM dd",
     "longDate": "y MMMM d",

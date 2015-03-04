@@ -16,7 +16,6 @@ $provide.value("$locale", {
       "Po\u02bbalima",
       "Po\u02bbaono"
     ],
-    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "Ianuali",
       "Pepeluali",
@@ -53,10 +52,6 @@ $provide.value("$locale", {
       "\u02bbOk.",
       "Now.",
       "Kek."
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
