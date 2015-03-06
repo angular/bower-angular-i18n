@@ -34,7 +34,6 @@ $provide.value("$locale", {
       "Comgaisuu",
       "Comzye\u0253suu"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "F\u0129i Loo",
       "Cokcwakla\u014bne",
@@ -71,10 +70,6 @@ $provide.value("$locale", {
       "FMU",
       "FGW",
       "FYU"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",
