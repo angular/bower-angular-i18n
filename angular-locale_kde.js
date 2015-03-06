@@ -34,7 +34,6 @@ $provide.value("$locale", {
       "Liduva lyannyano na mavili",
       "Liduva litandi"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Mwedi Ntandi",
       "Mwedi wa Pili",
@@ -71,10 +70,6 @@ $provide.value("$locale", {
       "Okt",
       "Nov",
       "Des"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
