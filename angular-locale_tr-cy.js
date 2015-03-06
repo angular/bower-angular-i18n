@@ -16,7 +16,6 @@ $provide.value("$locale", {
       "Cuma",
       "Cumartesi"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Ocak",
       "\u015eubat",
@@ -53,10 +52,6 @@ $provide.value("$locale", {
       "Eki",
       "Kas",
       "Ara"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "d MMMM y EEEE",
     "longDate": "d MMMM y",
