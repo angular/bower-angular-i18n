@@ -34,7 +34,6 @@ $provide.value("$locale", {
       "siku ya tanu",
       "siku ya sita"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "mwezi ya kwanja",
       "mwezi ya pili",
@@ -71,10 +70,6 @@ $provide.value("$locale", {
       "mku",
       "mkm",
       "mkb"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",

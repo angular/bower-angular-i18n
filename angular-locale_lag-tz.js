@@ -34,7 +34,6 @@ $provide.value("$locale", {
       "Ijum\u00e1a",
       "Jumam\u00f3osi"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "K\u0289f\u00fangat\u0268",
       "K\u0289naan\u0268",
@@ -71,10 +70,6 @@ $provide.value("$locale", {
       "Inyi",
       "Saano",
       "Sasat\u0289"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
