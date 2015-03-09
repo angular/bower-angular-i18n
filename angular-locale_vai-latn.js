@@ -34,7 +34,6 @@ $provide.value("$locale", {
       "aijima",
       "si\u0253iti"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "luukao kem\u00e3",
       "\u0253anda\u0253u",
@@ -71,10 +70,6 @@ $provide.value("$locale", {
       "galo",
       "kenpkato \u0253olol\u0254",
       "luukao l\u0254ma"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
