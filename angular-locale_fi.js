@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "eKr.",
       "jKr."
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "tammikuuta",
       "helmikuuta",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "lokakuuta",
       "marraskuuta",
       "joulukuuta"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "cccc d. MMMM y",
     "longDate": "d. MMMM y",
