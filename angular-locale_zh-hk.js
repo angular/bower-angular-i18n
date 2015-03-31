@@ -16,15 +16,6 @@ $provide.value("$locale", {
       "\u661f\u671f\u4e94",
       "\u661f\u671f\u516d"
     ],
-    "ERANAMES": [
-      "\u516c\u5143\u524d",
-      "\u516c\u5143"
-    ],
-    "ERAS": [
-      "BC",
-      "AD"
-    ],
-    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "1\u6708",
       "2\u6708",
@@ -61,10 +52,6 @@ $provide.value("$locale", {
       "10\u6708",
       "11\u6708",
       "12\u6708"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "y\u5e74M\u6708d\u65e5EEEE",
     "longDate": "y\u5e74M\u6708d\u65e5",
@@ -105,6 +92,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "zh-hk",
-  "pluralCat": function(n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

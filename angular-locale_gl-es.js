@@ -34,15 +34,6 @@ $provide.value("$locale", {
       "venres",
       "s\u00e1bado"
     ],
-    "ERANAMES": [
-      "antes de Cristo",
-      "despois de Cristo"
-    ],
-    "ERAS": [
-      "a.C.",
-      "d.C."
-    ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "xaneiro",
       "febreiro",
@@ -79,10 +70,6 @@ $provide.value("$locale", {
       "out",
       "nov",
       "dec"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE dd MMMM y",
     "longDate": "dd MMMM y",
@@ -123,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "gl-es",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

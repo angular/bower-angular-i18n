@@ -34,15 +34,6 @@ $provide.value("$locale", {
       "vinars",
       "sabide"
     ],
-    "ERANAMES": [
-      "pdC",
-      "ddC"
-    ],
-    "ERAS": [
-      "pdC",
-      "ddC"
-    ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Zen\u00e2r",
       "Fevr\u00e2r",
@@ -79,10 +70,6 @@ $provide.value("$locale", {
       "Otu",
       "Nov",
       "Dic"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d 'di' MMMM 'dal' y",
     "longDate": "d 'di' MMMM 'dal' y",
@@ -123,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "fur-it",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

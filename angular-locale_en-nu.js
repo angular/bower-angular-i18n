@@ -34,15 +34,6 @@ $provide.value("$locale", {
       "Friday",
       "Saturday"
     ],
-    "ERANAMES": [
-      "Before Christ",
-      "Anno Domini"
-    ],
-    "ERAS": [
-      "BC",
-      "AD"
-    ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "January",
       "February",
@@ -79,10 +70,6 @@ $provide.value("$locale", {
       "Oct",
       "Nov",
       "Dec"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, MMMM d, y",
     "longDate": "MMMM d, y",
@@ -123,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "en-nu",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

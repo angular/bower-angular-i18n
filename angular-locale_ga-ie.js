@@ -16,15 +16,6 @@ $provide.value("$locale", {
       "D\u00e9 hAoine",
       "D\u00e9 Sathairn"
     ],
-    "ERANAMES": [
-      "Roimh Chr\u00edost",
-      "Anno Domini"
-    ],
-    "ERAS": [
-      "RC",
-      "AD"
-    ],
-    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "Ean\u00e1ir",
       "Feabhra",
@@ -61,10 +52,6 @@ $provide.value("$locale", {
       "DF\u00f3mh",
       "Samh",
       "Noll"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",
@@ -105,6 +92,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ga-ie",
-  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  if (n == 2) {    return PLURAL_CATEGORY.TWO;  }  if (n >= 3 && n <= 6) {    return PLURAL_CATEGORY.FEW;  }  if (n >= 7 && n <= 10) {    return PLURAL_CATEGORY.MANY;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  if (n == 2) {    return PLURAL_CATEGORY.TWO;  }  if (n >= 3 && n <= 6) {    return PLURAL_CATEGORY.FEW;  }  if (n >= 7 && n <= 10) {    return PLURAL_CATEGORY.MANY;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

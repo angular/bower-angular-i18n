@@ -34,15 +34,6 @@ $provide.value("$locale", {
       "A\u014bp\u00e9tuzapta\u014b",
       "Ow\u00e1\u014bgyu\u017ea\u017eapi"
     ],
-    "ERANAMES": [
-      "BCE",
-      "CE"
-    ],
-    "ERAS": [
-      "BCE",
-      "CE"
-    ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Wi\u00f3the\u021fika W\u00ed",
       "Thiy\u00f3\u021feyu\u014bka W\u00ed",
@@ -79,10 +70,6 @@ $provide.value("$locale", {
       "\u010cha\u014bw\u00e1pe-kasn\u00e1 W\u00ed",
       "Wan\u00edyetu W\u00ed",
       "T\u021fah\u00e9kap\u0161u\u014b W\u00ed"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, MMMM d, y",
     "longDate": "MMMM d, y",
@@ -123,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "lkt",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

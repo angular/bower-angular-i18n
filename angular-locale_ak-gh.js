@@ -34,15 +34,6 @@ $provide.value("$locale", {
       "Fida",
       "Memeneda"
     ],
-    "ERANAMES": [
-      "Ansa Kristo",
-      "Kristo Ekyiri"
-    ],
-    "ERAS": [
-      "AK",
-      "KE"
-    ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Sanda-\u0186p\u025bp\u0254n",
       "Kwakwar-\u0186gyefuo",
@@ -79,10 +70,6 @@ $provide.value("$locale", {
       "\u0186-A",
       "\u0186-O",
       "M-\u0186"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, y MMMM dd",
     "longDate": "y MMMM d",
@@ -123,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ak-gh",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

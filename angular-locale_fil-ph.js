@@ -34,15 +34,6 @@ $provide.value("$locale", {
       "Biyernes",
       "Sabado"
     ],
-    "ERANAMES": [
-      "BC",
-      "AD"
-    ],
-    "ERAS": [
-      "BC",
-      "AD"
-    ],
-    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "Enero",
       "Pebrero",
@@ -79,10 +70,6 @@ $provide.value("$locale", {
       "Okt",
       "Nob",
       "Dis"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, MMMM d, y",
     "longDate": "MMMM d, y",
@@ -123,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "fil-ph",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (vf.v == 0 && (i == 1 || i == 2 || i == 3) || vf.v == 0 && i % 10 != 4 && i % 10 != 6 && i % 10 != 9 || vf.v != 0 && vf.f % 10 != 4 && vf.f % 10 != 6 && vf.f % 10 != 9) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (vf.v == 0 && (i == 1 || i == 2 || i == 3) || vf.v == 0 && i % 10 != 4 && i % 10 != 6 && i % 10 != 9 || vf.v != 0 && vf.f % 10 != 4 && vf.f % 10 != 6 && vf.f % 10 != 9) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

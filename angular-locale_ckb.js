@@ -34,15 +34,6 @@ $provide.value("$locale", {
       "\u06be\u06d5\u06cc\u0646\u06cc",
       "\u0634\u06d5\u0645\u0645\u06d5"
     ],
-    "ERANAMES": [
-      "\u067e\u06ce\u0634 \u0632\u0627\u06cc\u06cc\u0646",
-      "\u0632\u0627\u06cc\u06cc\u0646\u06cc"
-    ],
-    "ERAS": [
-      "\u067e\u06ce\u0634 \u0632\u0627\u06cc\u06cc\u06cc\u0646",
-      "\u0632"
-    ],
-    "FIRSTDAYOFWEEK": 5,
     "MONTH": [
       "\u06a9\u0627\u0646\u0648\u0648\u0646\u06cc \u062f\u0648\u0648\u06d5\u0645",
       "\u0634\u0648\u0628\u0627\u062a",
@@ -79,10 +70,6 @@ $provide.value("$locale", {
       "\u062a\u0634\u0631\u06cc\u0646\u06cc \u06cc\u06d5\u06a9\u06d5\u0645",
       "\u062a\u0634\u0631\u06cc\u0646\u06cc \u062f\u0648\u0648\u06d5\u0645",
       "\u06a9\u0627\u0646\u0648\u0646\u06cc \u06cc\u06d5\u06a9\u06d5\u0645"
-    ],
-    "WEEKENDRANGE": [
-      4,
-      5
     ],
     "fullDate": "y MMMM d, EEEE",
     "longDate": "d\u06cc MMMM\u06cc y",
@@ -123,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ckb",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

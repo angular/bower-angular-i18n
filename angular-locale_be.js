@@ -34,15 +34,6 @@ $provide.value("$locale", {
       "\u043f\u044f\u0442\u043d\u0456\u0446\u0430",
       "\u0441\u0443\u0431\u043e\u0442\u0430"
     ],
-    "ERANAMES": [
-      "\u0434\u0430 \u043d.\u044d.",
-      "\u043d.\u044d."
-    ],
-    "ERAS": [
-      "\u0434\u0430 \u043d.\u044d.",
-      "\u043d.\u044d."
-    ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "\u0441\u0442\u0443\u0434\u0437\u0435\u043d\u044f",
       "\u043b\u044e\u0442\u0430\u0433\u0430",
@@ -79,10 +70,6 @@ $provide.value("$locale", {
       "\u043a\u0430\u0441",
       "\u043b\u0456\u0441",
       "\u0441\u043d\u0435"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
@@ -123,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "be",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
