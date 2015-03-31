@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "Njumaa",
       "Njumamothi"
     ],
+    "ERANAMES": [
+      "Mbere ya Kristo",
+      "Thutha wa Kristo"
+    ],
+    "ERAS": [
+      "MK",
+      "TK"
+    ],
     "MONTH": [
       "Njenuar\u0129",
       "Mwere wa ker\u0129",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ki",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

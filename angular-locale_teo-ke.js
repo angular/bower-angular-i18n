@@ -30,17 +30,25 @@ $provide.value("$locale", {
       "Nakaebarasa",
       "Nakaare",
       "Nakauni",
-      "Nakaung'on",
+      "Nakaung\u2019on",
       "Nakakany",
       "Nakasabiti"
+    ],
+    "ERANAMES": [
+      "Kabla ya Christo",
+      "Baada ya Christo"
+    ],
+    "ERAS": [
+      "KK",
+      "BK"
     ],
     "MONTH": [
       "Orara",
       "Omuk",
-      "Okwamg'",
-      "Odung'el",
+      "Okwamg\u2019",
+      "Odung\u2019el",
       "Omaruk",
-      "Omodok'king'ol",
+      "Omodok\u2019king\u2019ol",
       "Ojola",
       "Opedel",
       "Osokosokoma",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "teo-ke",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

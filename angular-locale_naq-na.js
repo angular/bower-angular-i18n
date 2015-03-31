@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "Fraitaxtsees",
       "Satertaxtsees"
     ],
+    "ERANAMES": [
+      "Xristub ai\u01c3\u00e2",
+      "Xristub khao\u01c3g\u00e2"
+    ],
+    "ERAS": [
+      "BC",
+      "AD"
+    ],
     "MONTH": [
       "\u01c3Khanni",
       "\u01c3Khan\u01c0g\u00f4ab",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "naq-na",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

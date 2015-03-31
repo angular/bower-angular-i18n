@@ -16,6 +16,14 @@ $provide.value("$locale", {
       "\u91d1\u66dc\u65e5",
       "\u571f\u66dc\u65e5"
     ],
+    "ERANAMES": [
+      "\u7d00\u5143\u524d",
+      "\u897f\u66a6"
+    ],
+    "ERAS": [
+      "\u7d00\u5143\u524d",
+      "\u897f\u66a6"
+    ],
     "MONTH": [
       "1\u6708",
       "2\u6708",
@@ -92,6 +100,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ja",
-  "pluralCat": function (n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "f\u00falad\u00e9",
       "s\u00e9rad\u00e9"
     ],
+    "ERANAMES": [
+      "os\u00fas\u00faa Y\u00e9sus kiri",
+      "\u00e1mvus Y\u00e9sus Kir\u00eds"
+    ],
+    "ERAS": [
+      "oyk",
+      "ayk"
+    ],
     "MONTH": [
       "ng\u0254n os\u00fa",
       "ng\u0254n b\u025b\u030c",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ewo-cm",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
