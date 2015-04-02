@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "BC",
       "AD"
     ],
-    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "Enero",
       "Pebrero",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "Okt",
       "Nob",
       "Dis"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, MMMM d, y",
     "longDate": "MMMM d, y",
