@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "v. Chr.",
       "n. Chr"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Jenner",
       "Hornig",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "W\u00edm",
       "Win",
       "Chr"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d. MMMM y",
     "longDate": "d. MMMM y",
