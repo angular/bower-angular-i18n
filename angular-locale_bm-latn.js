@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "J.-C. \u0272\u025b",
       "ni J.-C."
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "zanwuye",
       "feburuye",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "\u0254ku",
       "now",
       "des"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",
