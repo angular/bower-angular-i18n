@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "MY",
       "IY"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Mwai wa mbee",
       "Mwai wa kel\u0129",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "\u0128ku",
       "\u0128km",
       "\u0128kl"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
