@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "RC",
       "AD"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Mys Genver",
       "Mys Whevrel",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "Hed",
       "Du",
       "Kev"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",

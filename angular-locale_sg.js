@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "KnK",
       "NpK"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Nyenye",
       "Fulund\u00efgi",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "Ngb",
       "Nab",
       "Kak"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",
