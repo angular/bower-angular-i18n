@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "AY",
       "\u0190Y"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Tiop thar p\u025bt",
       "P\u025bt",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "Laa",
       "Kur",
       "Tid"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",

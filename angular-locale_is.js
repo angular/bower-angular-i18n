@@ -55,7 +55,6 @@ $provide.value("$locale", {
       "f.Kr.",
       "e.Kr."
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "jan\u00faar",
       "febr\u00faar",
@@ -92,10 +91,6 @@ $provide.value("$locale", {
       "okt.",
       "n\u00f3v.",
       "des."
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d. MMMM y",
     "longDate": "d. MMMM y",
