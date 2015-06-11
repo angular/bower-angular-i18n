@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "MK",
       "TK"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Mweri wa mbere",
       "Mweri wa ka\u0129ri",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "Iku",
       "Imw",
       "Igi"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
