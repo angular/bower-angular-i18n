@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "KK",
       "BK"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Orara",
       "Omuk",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "Tib",
       "Lab",
       "Poo"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
