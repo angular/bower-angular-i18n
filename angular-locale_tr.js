@@ -9,7 +9,7 @@
 angular.module("ngLocale", [], ["$provide", function ($provide) {
 
   $provide.value("$locale", {
-    "id"              : "tr-tr",
+    "id"              : "tr",
     "DATETIME_FORMATS": {
       "AMPMS"         : [
         "\u00d6\u00d6",
