@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "AK",
       "PK"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Mupalangulwa",
       "Mwitope",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "Mok",
       "Mus",
       "Muh"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
