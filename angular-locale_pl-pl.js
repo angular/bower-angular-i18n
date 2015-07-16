@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "p.n.e.",
       "n.e."
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "stycznia",
       "lutego",
@@ -80,14 +79,10 @@ $provide.value("$locale", {
       "lis",
       "gru"
     ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
-    "medium": "dd.MM.y HH:mm:ss",
-    "mediumDate": "dd.MM.y",
+    "medium": "d MMM y HH:mm:ss",
+    "mediumDate": "d MMM y",
     "mediumTime": "HH:mm:ss",
     "short": "dd.MM.y HH:mm",
     "shortDate": "dd.MM.y",
