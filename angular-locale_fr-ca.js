@@ -24,7 +24,6 @@ $provide.value("$locale", {
       "av. J.-C.",
       "ap. J.-C."
     ],
-    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "janvier",
       "f\u00e9vrier",
@@ -62,14 +61,10 @@ $provide.value("$locale", {
       "nov.",
       "d\u00e9c."
     ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",
-    "medium": "d MMM y HH:mm:ss",
-    "mediumDate": "d MMM y",
+    "medium": "y-MM-dd HH:mm:ss",
+    "mediumDate": "y-MM-dd",
     "mediumTime": "HH:mm:ss",
     "short": "yy-MM-dd HH:mm",
     "shortDate": "yy-MM-dd",
