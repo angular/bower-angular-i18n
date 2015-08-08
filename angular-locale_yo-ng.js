@@ -42,6 +42,7 @@ $provide.value("$locale", {
       "SK",
       "LK"
     ],
+    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "O\u1e63\u00f9 \u1e62\u1eb9\u0301r\u1eb9\u0301",
       "O\u1e63\u00f9 \u00c8r\u00e8l\u00e8",
@@ -79,6 +80,10 @@ $provide.value("$locale", {
       "B\u00e9l\u00fa",
       "\u1ecc\u0300p\u1eb9\u0300"
     ],
+    "WEEKENDRANGE": [
+      5,
+      6
+    ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
     "medium": "d MMM y h:mm:ss a",
@@ -110,7 +115,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4-",
+        "negPre": "-\u00a4",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""
