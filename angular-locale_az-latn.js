@@ -24,6 +24,7 @@ $provide.value("$locale", {
       "e.\u0259.",
       "b.e."
     ],
+    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "yanvar",
       "fevral",
@@ -61,6 +62,10 @@ $provide.value("$locale", {
       "noy",
       "dek"
     ],
+    "WEEKENDRANGE": [
+      5,
+      6
+    ],
     "fullDate": "d MMMM y, EEEE",
     "longDate": "d MMMM y",
     "medium": "d MMM y HH:mm:ss",
@@ -71,7 +76,7 @@ $provide.value("$locale", {
     "shortTime": "HH:mm"
   },
   "NUMBER_FORMATS": {
-    "CURRENCY_SYM": "\u20ac",
+    "CURRENCY_SYM": "man.",
     "DECIMAL_SEP": ",",
     "GROUP_SEP": ".",
     "PATTERNS": [
@@ -92,7 +97,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4\u00a0-",
+        "negPre": "-\u00a4\u00a0",
         "negSuf": "",
         "posPre": "\u00a4\u00a0",
         "posSuf": ""
