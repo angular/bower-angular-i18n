@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "hY",
       "Y\u014b"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "dzove",
       "dzodze",
@@ -80,10 +79,6 @@ $provide.value("$locale", {
       "ade",
       "dzm"
     ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE, MMMM d 'lia' y",
     "longDate": "MMMM d 'lia' y",
     "medium": "MMM d 'lia', y a 'ga' h:mm:ss",
@@ -115,7 +110,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4",
+        "negPre": "\u00a4-",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""

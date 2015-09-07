@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "BC",
       "AD"
     ],
-    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "January",
       "February",
@@ -80,11 +79,7 @@ $provide.value("$locale", {
       "Nov",
       "Dec"
     ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
-    "fullDate": "EEEE, dd MMMM y",
+    "fullDate": "EEEE dd MMMM y",
     "longDate": "dd MMMM y",
     "medium": "dd MMM,y h:mm:ss a",
     "mediumDate": "dd MMM,y",
@@ -115,7 +110,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4",
+        "negPre": "\u00a4-",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""
