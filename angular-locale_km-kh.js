@@ -24,6 +24,7 @@ $provide.value("$locale", {
       "\u1798\u17bb\u1793 \u1782.\u179f.",
       "\u1782.\u179f."
     ],
+    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "\u1798\u1780\u179a\u17b6",
       "\u1780\u17bb\u1798\u17d2\u1797\u17c8",
@@ -61,6 +62,10 @@ $provide.value("$locale", {
       "\u179c\u17b7\u1785\u17d2\u1786\u17b7\u1780\u17b6",
       "\u1792\u17d2\u1793\u17bc"
     ],
+    "WEEKENDRANGE": [
+      5,
+      6
+    ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",
     "medium": "d MMM y h:mm:ss a",
@@ -92,7 +97,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4-",
+        "negPre": "-\u00a4",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""

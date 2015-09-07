@@ -42,6 +42,7 @@ $provide.value("$locale", {
       "KK",
       "PK"
     ],
+    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "F\u0129i Loo",
       "Cokcwakla\u014bne",
@@ -79,6 +80,10 @@ $provide.value("$locale", {
       "FGW",
       "FYU"
     ],
+    "WEEKENDRANGE": [
+      5,
+      6
+    ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",
     "medium": "d MMM y HH:mm:ss",
@@ -110,7 +115,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4-",
+        "negPre": "-\u00a4",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""
