@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "KHAI",
       "BHAI"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Janairu",
       "Faburairu",
@@ -80,10 +79,6 @@ $provide.value("$locale", {
       "Nuw",
       "Dis"
     ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE, d MMMM, y",
     "longDate": "d MMMM, y",
     "medium": "d MMM, y HH:mm:ss",
@@ -94,7 +89,7 @@ $provide.value("$locale", {
     "shortTime": "HH:mm"
   },
   "NUMBER_FORMATS": {
-    "CURRENCY_SYM": "\u20a6",
+    "CURRENCY_SYM": "\u20ac",
     "DECIMAL_SEP": ".",
     "GROUP_SEP": ",",
     "PATTERNS": [
@@ -115,7 +110,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4\u00a0",
+        "negPre": "\u00a4\u00a0-",
         "negSuf": "",
         "posPre": "\u00a4\u00a0",
         "posSuf": ""
