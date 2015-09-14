@@ -34,14 +34,6 @@ $provide.value("$locale", {
       "\u062c\u0645\u0639\u06c1",
       "\u06c1\u0641\u062a\u06c1"
     ],
-    "ERANAMES": [
-      "\u0642\u0628\u0644 \u0645\u0633\u06cc\u062d",
-      "\u0639\u06cc\u0633\u0648\u06cc \u0633\u0646"
-    ],
-    "ERAS": [
-      "\u0642 \u0645",
-      "\u0639\u06cc\u0633\u0648\u06cc \u0633\u0646"
-    ],
     "MONTH": [
       "\u062c\u0646\u0648\u0631\u06cc",
       "\u0641\u0631\u0648\u0631\u06cc",
@@ -105,19 +97,19 @@ $provide.value("$locale", {
         "posSuf": ""
       },
       {
-        "gSize": 2,
+        "gSize": 3,
         "lgSize": 3,
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4\u00a0-",
-        "negSuf": "",
-        "posPre": "\u00a4\u00a0",
-        "posSuf": ""
+        "negPre": "\u00a4-",
+        "negSuf": "\u200e",
+        "posPre": "\u00a4",
+        "posSuf": "\u200e"
       }
     ]
   },
   "id": "ur",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

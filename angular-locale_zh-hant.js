@@ -16,14 +16,6 @@ $provide.value("$locale", {
       "\u661f\u671f\u4e94",
       "\u661f\u671f\u516d"
     ],
-    "ERANAMES": [
-      "\u897f\u5143\u524d",
-      "\u897f\u5143"
-    ],
-    "ERAS": [
-      "\u897f\u5143\u524d",
-      "\u897f\u5143"
-    ],
     "MONTH": [
       "1\u6708",
       "2\u6708",
@@ -61,7 +53,7 @@ $provide.value("$locale", {
       "11\u6708",
       "12\u6708"
     ],
-    "fullDate": "y\u5e74M\u6708d\u65e5 EEEE",
+    "fullDate": "y\u5e74M\u6708d\u65e5EEEE",
     "longDate": "y\u5e74M\u6708d\u65e5",
     "medium": "y\u5e74M\u6708d\u65e5 ah:mm:ss",
     "mediumDate": "y\u5e74M\u6708d\u65e5",
@@ -100,6 +92,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "zh-hant",
-  "pluralCat": function(n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

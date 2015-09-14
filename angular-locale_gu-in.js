@@ -16,14 +16,6 @@ $provide.value("$locale", {
       "\u0ab6\u0ac1\u0a95\u0acd\u0ab0\u0ab5\u0abe\u0ab0",
       "\u0ab6\u0aa8\u0abf\u0ab5\u0abe\u0ab0"
     ],
-    "ERANAMES": [
-      "\u0a88\u0ab8\u0ab5\u0ac0\u0ab8\u0aa8 \u0aaa\u0ac2\u0ab0\u0acd\u0ab5\u0ac7",
-      "\u0a87\u0ab8\u0ab5\u0ac0\u0ab8\u0aa8"
-    ],
-    "ERAS": [
-      "\u0a88\u0ab8\u0ac1\u0aa8\u0abe \u0a9c\u0aa8\u0acd\u0aae \u0aaa\u0ab9\u0ac7\u0ab2\u0abe",
-      "\u0a87\u0ab8\u0ab5\u0ac0\u0ab8\u0aa8"
-    ],
     "MONTH": [
       "\u0a9c\u0abe\u0aa8\u0acd\u0aaf\u0ac1\u0a86\u0ab0\u0ac0",
       "\u0aab\u0ac7\u0aac\u0acd\u0ab0\u0ac1\u0a86\u0ab0\u0ac0",
@@ -55,7 +47,7 @@ $provide.value("$locale", {
       "\u0aae\u0ac7",
       "\u0a9c\u0ac2\u0aa8",
       "\u0a9c\u0ac1\u0ab2\u0abe\u0a88",
-      "\u0a91\u0a97",
+      "\u0a91\u0a97\u0ab8\u0acd\u0a9f",
       "\u0ab8\u0aaa\u0acd\u0a9f\u0ac7",
       "\u0a91\u0a95\u0acd\u0a9f\u0acb",
       "\u0aa8\u0ab5\u0ac7",
@@ -66,8 +58,8 @@ $provide.value("$locale", {
     "medium": "d MMM, y hh:mm:ss a",
     "mediumDate": "d MMM, y",
     "mediumTime": "hh:mm:ss a",
-    "short": "d/M/yy hh:mm a",
-    "shortDate": "d/M/yy",
+    "short": "d-MM-yy hh:mm a",
+    "shortDate": "d-MM-yy",
     "shortTime": "hh:mm a"
   },
   "NUMBER_FORMATS": {
@@ -100,6 +92,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "gu-in",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  if (i == 0 || n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  if (i == 0 || n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
