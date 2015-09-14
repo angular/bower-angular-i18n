@@ -18,13 +18,12 @@ $provide.value("$locale", {
     ],
     "ERANAMES": [
       "antes de Cristo",
-      "despu\u00e9s de Cristo"
+      "Anno Domini"
     ],
     "ERAS": [
-      "a. C.",
-      "d. C."
+      "a.C.",
+      "d.C."
     ],
-    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "enero",
       "febrero",
@@ -40,13 +39,13 @@ $provide.value("$locale", {
       "diciembre"
     ],
     "SHORTDAY": [
-      "dom.",
-      "lun.",
-      "mar.",
-      "mi\u00e9.",
-      "jue.",
-      "vie.",
-      "s\u00e1b."
+      "dom",
+      "lun",
+      "mar",
+      "mi\u00e9",
+      "jue",
+      "vie",
+      "s\u00e1b"
     ],
     "SHORTMONTH": [
       "ene",
@@ -62,18 +61,14 @@ $provide.value("$locale", {
       "nov",
       "dic"
     ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE, d 'de' MMMM 'de' y",
     "longDate": "d 'de' MMMM 'de' y",
-    "medium": "dd/MM/y h:mm:ss a",
+    "medium": "dd/MM/y H:mm:ss",
     "mediumDate": "dd/MM/y",
-    "mediumTime": "h:mm:ss a",
-    "short": "dd/MM/yy h:mm a",
+    "mediumTime": "H:mm:ss",
+    "short": "dd/MM/yy H:mm",
     "shortDate": "dd/MM/yy",
-    "shortTime": "h:mm a"
+    "shortTime": "H:mm"
   },
   "NUMBER_FORMATS": {
     "CURRENCY_SYM": "$",
@@ -97,7 +92,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4",
+        "negPre": "\u00a4-",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""

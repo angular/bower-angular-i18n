@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "BCE",
       "CE"
     ],
-    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "Phando",
       "Luhuhi",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "Tsh",
       "\u1e3car",
       "Nye"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "y MMMM d, EEEE",
     "longDate": "y MMMM d",
