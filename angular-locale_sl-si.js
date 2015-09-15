@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "petek",
       "sobota"
     ],
+    "ERANAMES": [
+      "pred na\u0161im \u0161tetjem",
+      "na\u0161e \u0161tetje"
+    ],
+    "ERAS": [
+      "pr. n. \u0161t.",
+      "po Kr."
+    ],
     "MONTH": [
       "januar",
       "februar",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "sl-si",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (vf.v == 0 && i % 100 == 1) {    return PLURAL_CATEGORY.ONE;  }  if (vf.v == 0 && i % 100 == 2) {    return PLURAL_CATEGORY.TWO;  }  if (vf.v == 0 && i % 100 >= 3 && i % 100 <= 4 || vf.v != 0) {    return PLURAL_CATEGORY.FEW;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (vf.v == 0 && i % 100 == 1) {    return PLURAL_CATEGORY.ONE;  }  if (vf.v == 0 && i % 100 == 2) {    return PLURAL_CATEGORY.TWO;  }  if (vf.v == 0 && i % 100 >= 3 && i % 100 <= 4 || vf.v != 0) {    return PLURAL_CATEGORY.FEW;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

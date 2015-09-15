@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "\u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930",
       "\u0936\u0928\u093f\u0935\u093e\u0930"
     ],
+    "ERANAMES": [
+      "\u0915\u094d\u0930\u093f\u0938\u094d\u0924\u092a\u0942\u0930\u094d\u0935",
+      "\u0915\u094d\u0930\u093f\u0938\u094d\u0924\u0936\u0916\u093e"
+    ],
+    "ERAS": [
+      "\u0915\u094d\u0930\u093f\u0938\u094d\u0924\u092a\u0942\u0930\u094d\u0935",
+      "\u0915\u094d\u0930\u093f\u0938\u094d\u0924\u0936\u0916\u093e"
+    ],
     "MONTH": [
       "\u091c\u093e\u0928\u0947\u0935\u093e\u0930\u0940",
       "\u092b\u0947\u092c\u094d\u0930\u0941\u0935\u093e\u0930\u0940",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "kok-in",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

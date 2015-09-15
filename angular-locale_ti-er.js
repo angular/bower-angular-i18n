@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "\u12d3\u122d\u1262",
       "\u1240\u12f3\u121d"
     ],
+    "ERANAMES": [
+      "\u12d3/\u12d3",
+      "\u12d3/\u121d"
+    ],
+    "ERAS": [
+      "\u12d3/\u12d3",
+      "\u12d3/\u121d"
+    ],
     "MONTH": [
       "\u1325\u122a",
       "\u1208\u12ab\u1272\u1275",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ti-er",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

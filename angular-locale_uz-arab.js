@@ -16,6 +16,14 @@ $provide.value("$locale", {
       "\u062c\u0645\u0639\u0647",
       "\u0634\u0646\u0628\u0647"
     ],
+    "ERANAMES": [
+      "\u0642.\u0645.",
+      "\u0645."
+    ],
+    "ERAS": [
+      "\u0642.\u0645.",
+      "\u0645."
+    ],
     "MONTH": [
       "\u062c\u0646\u0648\u0631\u06cc",
       "\u0641\u0628\u0631\u0648\u0631\u06cc",
@@ -92,6 +100,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "uz-arab",
-  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

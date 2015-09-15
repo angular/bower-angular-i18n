@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "\u043c\u0430\u0439\u0440\u04d5\u043c\u0431\u043e\u043d",
       "\u0441\u0430\u0431\u0430\u0442"
     ],
+    "ERANAMES": [
+      "\u043d.\u0434.\u0430.",
+      "\u043d.\u0434."
+    ],
+    "ERAS": [
+      "\u043d.\u0434.\u0430.",
+      "\u043d.\u0434."
+    ],
     "MONTH": [
       "\u044f\u043d\u0432\u0430\u0440\u044b",
       "\u0444\u0435\u0432\u0440\u0430\u043b\u044b",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "os-ru",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

@@ -16,6 +16,14 @@ $provide.value("$locale", {
       "vendredi",
       "samedi"
     ],
+    "ERANAMES": [
+      "avant J\u00e9sus-Christ",
+      "apr\u00e8s J\u00e9sus-Christ"
+    ],
+    "ERAS": [
+      "av. J.-C.",
+      "ap. J.-C."
+    ],
     "MONTH": [
       "janvier",
       "f\u00e9vrier",
@@ -92,6 +100,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "fr-gf",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  if (i == 0 || i == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  if (i == 0 || i == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
