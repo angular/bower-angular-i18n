@@ -34,14 +34,6 @@ $provide.value("$locale", {
       "Jum\u00e1a",
       "Jumam\u00f3si"
     ],
-    "ERANAMES": [
-      "Me\u00edn\u014d Y\u025b\u0301s\u0289",
-      "E\u00edn\u014d Y\u025b\u0301s\u0289"
-    ],
-    "ERAS": [
-      "MY",
-      "EY"
-    ],
     "MONTH": [
       "Oladal\u0289\u0301",
       "Ar\u00e1t",
@@ -118,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "mas",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

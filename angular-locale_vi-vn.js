@@ -16,14 +16,6 @@ $provide.value("$locale", {
       "Th\u1ee9 S\u00e1u",
       "Th\u1ee9 B\u1ea3y"
     ],
-    "ERANAMES": [
-      "tr. CN",
-      "sau CN"
-    ],
-    "ERAS": [
-      "tr. CN",
-      "sau CN"
-    ],
     "MONTH": [
       "th\u00e1ng 1",
       "th\u00e1ng 2",
@@ -100,6 +92,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "vi-vn",
-  "pluralCat": function(n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
