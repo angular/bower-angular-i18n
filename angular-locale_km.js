@@ -16,14 +16,6 @@ $provide.value("$locale", {
       "\u179f\u17bb\u1780\u17d2\u179a",
       "\u179f\u17c5\u179a\u17cd"
     ],
-    "ERANAMES": [
-      "\u1798\u17bb\u1793\u200b\u1782\u17d2\u179a\u17b7\u179f\u17d2\u178f\u179f\u1780\u179a\u17b6\u1787",
-      "\u1782\u17d2\u179a\u17b7\u179f\u17d2\u178f\u179f\u1780\u179a\u17b6\u1787"
-    ],
-    "ERAS": [
-      "\u1798\u17bb\u1793 \u1782.\u179f.",
-      "\u1782.\u179f."
-    ],
     "MONTH": [
       "\u1798\u1780\u179a\u17b6",
       "\u1780\u17bb\u1798\u17d2\u1797\u17c8",
@@ -66,8 +58,8 @@ $provide.value("$locale", {
     "medium": "d MMM y h:mm:ss a",
     "mediumDate": "d MMM y",
     "mediumTime": "h:mm:ss a",
-    "short": "d/M/yy h:mm a",
-    "shortDate": "d/M/yy",
+    "short": "d/M/y h:mm a",
+    "shortDate": "d/M/y",
     "shortTime": "h:mm a"
   },
   "NUMBER_FORMATS": {
@@ -100,6 +92,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "km",
-  "pluralCat": function(n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
