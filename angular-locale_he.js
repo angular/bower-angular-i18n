@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "\u05d9\u05d5\u05dd \u05e9\u05d9\u05e9\u05d9",
       "\u05d9\u05d5\u05dd \u05e9\u05d1\u05ea"
     ],
+    "ERANAMES": [
+      "\u05dc\u05e4\u05e0\u05d9 \u05d4\u05e1\u05e4\u05d9\u05e8\u05d4",
+      "\u05dc\u05e1\u05e4\u05d9\u05e8\u05d4"
+    ],
+    "ERAS": [
+      "\u05dc\u05e4\u05e0\u05d4\u05f4\u05e1",
+      "\u05dc\u05e1\u05e4\u05d9\u05e8\u05d4"
+    ],
     "MONTH": [
       "\u05d9\u05e0\u05d5\u05d0\u05e8",
       "\u05e4\u05d1\u05e8\u05d5\u05d0\u05e8",
@@ -76,8 +84,8 @@ $provide.value("$locale", {
     "medium": "d \u05d1MMM y HH:mm:ss",
     "mediumDate": "d \u05d1MMM y",
     "mediumTime": "HH:mm:ss",
-    "short": "dd/MM/yy HH:mm",
-    "shortDate": "dd/MM/yy",
+    "short": "d.M.y HH:mm",
+    "shortDate": "d.M.y",
     "shortTime": "HH:mm"
   },
   "NUMBER_FORMATS": {
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "he",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  if (i == 2 && vf.v == 0) {    return PLURAL_CATEGORY.TWO;  }  if (vf.v == 0 && (n < 0 || n > 10) && n % 10 == 0) {    return PLURAL_CATEGORY.MANY;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  if (i == 2 && vf.v == 0) {    return PLURAL_CATEGORY.TWO;  }  if (vf.v == 0 && (n < 0 || n > 10) && n % 10 == 0) {    return PLURAL_CATEGORY.MANY;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

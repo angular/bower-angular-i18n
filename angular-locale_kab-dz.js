@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "S\u1e0disass",
       "Sayass"
     ],
+    "ERANAMES": [
+      "send talalit n \u0190isa",
+      "seld talalit n \u0190isa"
+    ],
+    "ERAS": [
+      "snd. T.\u0190",
+      "sld. T.\u0190"
+    ],
     "MONTH": [
       "Yennayer",
       "Fu\u1e5bar",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "kab-dz",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

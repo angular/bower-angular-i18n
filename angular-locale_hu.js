@@ -16,6 +16,14 @@ $provide.value("$locale", {
       "p\u00e9ntek",
       "szombat"
     ],
+    "ERANAMES": [
+      "id\u0151sz\u00e1m\u00edt\u00e1sunk el\u0151tt",
+      "id\u0151sz\u00e1m\u00edt\u00e1sunk szerint"
+    ],
+    "ERAS": [
+      "i. e.",
+      "i. sz."
+    ],
     "MONTH": [
       "janu\u00e1r",
       "febru\u00e1r",
@@ -92,6 +100,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "hu",
-  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

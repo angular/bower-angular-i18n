@@ -26,13 +26,21 @@ $provide.value("$locale", {
       "lilli"
     ],
     "DAY": [
-      "Com'yakke",
+      "Com\u2019yakke",
       "Comlaa\u0257ii",
       "Comzyii\u0257ii",
       "Comkolle",
       "Comkald\u01dd\u0253lii",
       "Comgaisuu",
       "Comzye\u0253suu"
+    ],
+    "ERANAMES": [
+      "K\u01ddPel Kristu",
+      "Pel Kristu"
+    ],
+    "ERAS": [
+      "KK",
+      "PK"
     ],
     "MONTH": [
       "F\u0129i Loo",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "mua",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

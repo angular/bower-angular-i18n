@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "Orwakataano",
       "Orwamukaaga"
     ],
+    "ERANAMES": [
+      "Kurisito Atakaijire",
+      "Kurisito Yaijire"
+    ],
+    "ERAS": [
+      "BC",
+      "AD"
+    ],
     "MONTH": [
       "Okwokubanza",
       "Okwakabiri",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "cgg-ug",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

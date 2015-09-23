@@ -16,6 +16,14 @@ $provide.value("$locale", {
       "\u661f\u671f\u4e94",
       "\u661f\u671f\u516d"
     ],
+    "ERANAMES": [
+      "\u516c\u5143\u524d",
+      "\u516c\u5143"
+    ],
+    "ERAS": [
+      "\u516c\u5143\u524d",
+      "\u516c\u5143"
+    ],
     "MONTH": [
       "\u4e00\u6708",
       "\u4e8c\u6708",
@@ -92,6 +100,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "zh-hans",
-  "pluralCat": function (n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

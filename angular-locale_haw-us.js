@@ -16,6 +16,14 @@ $provide.value("$locale", {
       "Po\u02bbalima",
       "Po\u02bbaono"
     ],
+    "ERANAMES": [
+      "BCE",
+      "CE"
+    ],
+    "ERAS": [
+      "BCE",
+      "CE"
+    ],
     "MONTH": [
       "Ianuali",
       "Pepeluali",
@@ -92,6 +100,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "haw-us",
-  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "\u0938\u0941\u0916\u0941\u0930\u092c\u093e\u0930",
       "\u0938\u0941\u0928\u093f\u092c\u093e\u0930"
     ],
+    "ERANAMES": [
+      "\u0908\u0938\u093e.\u092a\u0942\u0930\u094d\u0935",
+      "\u0938\u0928"
+    ],
+    "ERAS": [
+      "\u0908\u0938\u093e.\u092a\u0942\u0930\u094d\u0935",
+      "\u0938\u0928"
+    ],
     "MONTH": [
       "\u091c\u093e\u0928\u0941\u0935\u093e\u0930\u0940",
       "\u092b\u0947\u092c\u094d\u0930\u0941\u0935\u093e\u0930\u0940",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "brx",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

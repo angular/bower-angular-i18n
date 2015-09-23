@@ -16,6 +16,14 @@ $provide.value("$locale", {
       "Cuma",
       "Cumartesi"
     ],
+    "ERANAMES": [
+      "Milattan \u00d6nce",
+      "Milattan Sonra"
+    ],
+    "ERAS": [
+      "M\u00d6",
+      "MS"
+    ],
     "MONTH": [
       "Ocak",
       "\u015eubat",
@@ -92,6 +100,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "tr-tr",
-  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

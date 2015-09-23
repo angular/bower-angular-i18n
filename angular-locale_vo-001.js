@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "fridel",
       "z\u00e4del"
     ],
+    "ERANAMES": [
+      "b. t. kr.",
+      "p. t. kr."
+    ],
+    "ERAS": [
+      "b. t. kr.",
+      "p. t. kr."
+    ],
     "MONTH": [
       "janul",
       "febul",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "vo-001",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

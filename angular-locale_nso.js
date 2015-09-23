@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "Labohlano",
       "Mokibelo"
     ],
+    "ERANAMES": [
+      "BCE",
+      "CE"
+    ],
+    "ERAS": [
+      "BCE",
+      "CE"
+    ],
     "MONTH": [
       "Janaware",
       "Feberware",
@@ -82,7 +90,7 @@ $provide.value("$locale", {
   },
   "NUMBER_FORMATS": {
     "CURRENCY_SYM": "R",
-    "DECIMAL_SEP": ",",
+    "DECIMAL_SEP": ".",
     "GROUP_SEP": "\u00a0",
     "PATTERNS": [
       {
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "nso",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

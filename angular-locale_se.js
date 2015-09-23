@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "bearjadat",
       "l\u00e1vvardat"
     ],
+    "ERANAMES": [
+      "ovdal Kristtusa",
+      "ma\u014b\u014bel Kristtusa"
+    ],
+    "ERAS": [
+      "o.Kr.",
+      "m.Kr."
+    ],
     "MONTH": [
       "o\u0111\u0111ajagem\u00e1nnu",
       "guovvam\u00e1nnu",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "se",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

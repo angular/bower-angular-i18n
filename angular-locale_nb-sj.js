@@ -16,6 +16,14 @@ $provide.value("$locale", {
       "fredag",
       "l\u00f8rdag"
     ],
+    "ERANAMES": [
+      "f.Kr.",
+      "e.Kr."
+    ],
+    "ERAS": [
+      "f.Kr.",
+      "e.Kr."
+    ],
     "MONTH": [
       "januar",
       "februar",
@@ -58,8 +66,8 @@ $provide.value("$locale", {
     "medium": "d. MMM y HH.mm.ss",
     "mediumDate": "d. MMM y",
     "mediumTime": "HH.mm.ss",
-    "short": "dd.MM.yy HH.mm",
-    "shortDate": "dd.MM.yy",
+    "short": "dd.MM.y HH.mm",
+    "shortDate": "dd.MM.y",
     "shortTime": "HH.mm"
   },
   "NUMBER_FORMATS": {
@@ -92,6 +100,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "nb-sj",
-  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

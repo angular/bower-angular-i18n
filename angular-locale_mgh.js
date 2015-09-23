@@ -23,7 +23,7 @@ $provide.value("$locale", {
   "DATETIME_FORMATS": {
     "AMPMS": [
       "wichishu",
-      "mchochil'l"
+      "mchochil\u2019l"
     ],
     "DAY": [
       "Sabato",
@@ -33,6 +33,14 @@ $provide.value("$locale", {
       "Arahamisi",
       "Ijumaa",
       "Jumamosi"
+    ],
+    "ERANAMES": [
+      "Hinapiya yesu",
+      "Yopia yesu"
+    ],
+    "ERAS": [
+      "HY",
+      "YY"
     ],
     "MONTH": [
       "Mweri wo kwanza",
@@ -46,7 +54,7 @@ $provide.value("$locale", {
       "Mweri wo tisa",
       "Mweri wo kumi",
       "Mweri wo kumi na moja",
-      "Mweri wo kumi na yel'li"
+      "Mweri wo kumi na yel\u2019li"
     ],
     "SHORTDAY": [
       "Sab",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "mgh",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
