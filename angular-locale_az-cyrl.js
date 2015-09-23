@@ -24,6 +24,7 @@ $provide.value("$locale", {
       "BCE",
       "CE"
     ],
+    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "\u0458\u0430\u043d\u0432\u0430\u0440",
       "\u0444\u0435\u0432\u0440\u0430\u043b",
@@ -61,6 +62,10 @@ $provide.value("$locale", {
       "\u043d\u043e\u0458\u0430\u0431\u0440",
       "\u0434\u0435\u043a\u0430\u0431\u0440"
     ],
+    "WEEKENDRANGE": [
+      5,
+      6
+    ],
     "fullDate": "EEEE, d, MMMM, y",
     "longDate": "d MMMM, y",
     "medium": "d MMM, y HH:mm:ss",
@@ -71,7 +76,7 @@ $provide.value("$locale", {
     "shortTime": "HH:mm"
   },
   "NUMBER_FORMATS": {
-    "CURRENCY_SYM": "\u20ac",
+    "CURRENCY_SYM": "man.",
     "DECIMAL_SEP": ",",
     "GROUP_SEP": ".",
     "PATTERNS": [
@@ -92,7 +97,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4\u00a0-",
+        "negPre": "-\u00a4\u00a0",
         "negSuf": "",
         "posPre": "\u00a4\u00a0",
         "posSuf": ""
