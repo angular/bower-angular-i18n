@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "pdC",
       "ddC"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Zen\u00e2r",
       "Fevr\u00e2r",
@@ -80,10 +79,6 @@ $provide.value("$locale", {
       "Nov",
       "Dic"
     ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE d 'di' MMMM 'dal' y",
     "longDate": "d 'di' MMMM 'dal' y",
     "medium": "dd/MM/y HH:mm:ss",
@@ -115,7 +110,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4\u00a0",
+        "negPre": "\u00a4\u00a0-",
         "negSuf": "",
         "posPre": "\u00a4\u00a0",
         "posSuf": ""

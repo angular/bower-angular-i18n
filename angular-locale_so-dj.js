@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "CK",
       "CD"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Bisha Koobaad",
       "Bisha Labaad",
@@ -80,10 +79,6 @@ $provide.value("$locale", {
       "KIT",
       "LIT"
     ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE, MMMM dd, y",
     "longDate": "dd MMMM y",
     "medium": "dd-MMM-y h:mm:ss a",
@@ -115,7 +110,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4",
+        "negPre": "\u00a4-",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""
