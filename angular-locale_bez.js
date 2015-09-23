@@ -34,14 +34,6 @@ $provide.value("$locale", {
       "pa hihanu",
       "pa shahulembela"
     ],
-    "ERANAMES": [
-      "Kabla ya Mtwaa",
-      "Baada ya Mtwaa"
-    ],
-    "ERAS": [
-      "KM",
-      "BM"
-    ],
     "MONTH": [
       "pa mwedzi gwa hutala",
       "pa mwedzi gwa wuvili",
@@ -118,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "bez",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
