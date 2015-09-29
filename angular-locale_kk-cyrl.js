@@ -24,6 +24,7 @@ $provide.value("$locale", {
       "\u0431.\u0437.\u0434.",
       "\u0431.\u0437."
     ],
+    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "\u049b\u0430\u04a3\u0442\u0430\u0440",
       "\u0430\u049b\u043f\u0430\u043d",
@@ -61,6 +62,10 @@ $provide.value("$locale", {
       "\u049b\u0430\u0440.",
       "\u0436\u0435\u043b\u0442."
     ],
+    "WEEKENDRANGE": [
+      5,
+      6
+    ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
     "medium": "y, dd-MMM HH:mm:ss",
@@ -71,7 +76,7 @@ $provide.value("$locale", {
     "shortTime": "HH:mm"
   },
   "NUMBER_FORMATS": {
-    "CURRENCY_SYM": "\u20ac",
+    "CURRENCY_SYM": "\u20b8",
     "DECIMAL_SEP": ",",
     "GROUP_SEP": "\u00a0",
     "PATTERNS": [

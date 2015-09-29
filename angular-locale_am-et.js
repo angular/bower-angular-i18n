@@ -24,6 +24,7 @@ $provide.value("$locale", {
       "\u12d3/\u12d3",
       "\u12d3/\u121d"
     ],
+    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "\u1303\u1295\u12e9\u12c8\u122a",
       "\u134c\u1265\u1229\u12c8\u122a",
@@ -61,6 +62,10 @@ $provide.value("$locale", {
       "\u1296\u126c\u121d",
       "\u12f2\u1234\u121d"
     ],
+    "WEEKENDRANGE": [
+      5,
+      6
+    ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
     "medium": "d MMM y h:mm:ss a",
@@ -92,7 +97,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4-",
+        "negPre": "-\u00a4",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""
