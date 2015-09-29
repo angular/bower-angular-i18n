@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "Arjuma",
       "Sibiti"
     ],
+    "ERANAMES": [
+      "Ari\u014buu Yeesu",
+      "Atoo\u014be Yeesu"
+    ],
+    "ERAS": [
+      "ArY",
+      "AtY"
+    ],
     "MONTH": [
       "Sanvie",
       "F\u00e9birie",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "dyo",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

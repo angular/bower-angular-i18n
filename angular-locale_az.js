@@ -16,6 +16,14 @@ $provide.value("$locale", {
       "c\u00fcm\u0259",
       "\u015f\u0259nb\u0259"
     ],
+    "ERANAMES": [
+      "eram\u0131zdan \u0259vv\u0259l",
+      "bizim eram\u0131z\u0131n"
+    ],
+    "ERAS": [
+      "e.\u0259.",
+      "b.e."
+    ],
     "MONTH": [
       "yanvar",
       "fevral",
@@ -36,7 +44,7 @@ $provide.value("$locale", {
       "\u00c7.A.",
       "\u00c7.",
       "C.A.",
-      "C",
+      "C.",
       "\u015e."
     ],
     "SHORTMONTH": [
@@ -92,6 +100,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "az",
-  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

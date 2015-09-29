@@ -16,6 +16,14 @@ $provide.value("$locale", {
       "\u0436\u0443\u043c\u0430",
       "\u0448\u0430\u043d\u0431\u0430"
     ],
+    "ERANAMES": [
+      "\u041c.\u0410.",
+      "\u042d"
+    ],
+    "ERAS": [
+      "\u041c.\u0410.",
+      "\u042d"
+    ],
     "MONTH": [
       "\u042f\u043d\u0432\u0430\u0440",
       "\u0424\u0435\u0432\u0440\u0430\u043b",
@@ -92,6 +100,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "uz-cyrl-uz",
-  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

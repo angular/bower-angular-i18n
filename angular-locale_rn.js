@@ -26,13 +26,21 @@ $provide.value("$locale", {
       "Z.MW."
     ],
     "DAY": [
-      "Ku w'indwi",
+      "Ku w\u2019indwi",
       "Ku wa mbere",
       "Ku wa kabiri",
       "Ku wa gatatu",
       "Ku wa kane",
       "Ku wa gatanu",
       "Ku wa gatandatu"
+    ],
+    "ERANAMES": [
+      "Mbere ya Yezu",
+      "Nyuma ya Yezu"
+    ],
+    "ERAS": [
+      "Mb.Y.",
+      "Ny.Y"
     ],
     "MONTH": [
       "Nzero",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "rn",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

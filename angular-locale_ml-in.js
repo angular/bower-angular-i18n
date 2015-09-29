@@ -16,6 +16,14 @@ $provide.value("$locale", {
       "\u0d35\u0d46\u0d33\u0d4d\u0d33\u0d3f\u0d2f\u0d3e\u0d34\u0d4d\u200c\u0d1a",
       "\u0d36\u0d28\u0d3f\u0d2f\u0d3e\u0d34\u0d4d\u200c\u0d1a"
     ],
+    "ERANAMES": [
+      "\u0d15\u0d4d\u0d30\u0d3f\u0d38\u0d4d\u200c\u0d24\u0d41\u0d35\u0d3f\u0d28\u0d4d \u0d2e\u0d41\u0d2e\u0d4d\u0d2a\u0d4d",
+      "\u0d06\u0d28\u0d4d\u0d28\u0d4b \u0d21\u0d4a\u0d2e\u0d3f\u0d28\u0d3f"
+    ],
+    "ERAS": [
+      "\u0d15\u0d4d\u0d30\u0d3f.\u0d2e\u0d41.",
+      "\u0d0e\u0d21\u0d3f"
+    ],
     "MONTH": [
       "\u0d1c\u0d28\u0d41\u0d35\u0d30\u0d3f",
       "\u0d2b\u0d46\u0d2c\u0d4d\u0d30\u0d41\u0d35\u0d30\u0d3f",
@@ -79,19 +87,19 @@ $provide.value("$locale", {
         "posSuf": ""
       },
       {
-        "gSize": 2,
+        "gSize": 3,
         "lgSize": 3,
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-",
-        "negSuf": "\u00a4",
-        "posPre": "",
-        "posSuf": "\u00a4"
+        "negPre": "\u00a4-",
+        "negSuf": "",
+        "posPre": "\u00a4",
+        "posSuf": ""
       }
     ]
   },
   "id": "ml-in",
-  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

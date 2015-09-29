@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "\u1eccj\u1ecd\u0301 \u1eb8t\u00ec",
       "\u1eccj\u1ecd\u0301 \u00c0b\u00e1m\u1eb9\u0301ta"
     ],
+    "ERANAMES": [
+      "Saju Kristi",
+      "Lehin Kristi"
+    ],
+    "ERAS": [
+      "SK",
+      "LK"
+    ],
     "MONTH": [
       "O\u1e63\u00f9 \u1e62\u1eb9\u0301r\u1eb9\u0301",
       "O\u1e63\u00f9 \u00c8r\u00e8l\u00e8",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "yo-ng",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

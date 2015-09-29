@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "fi\u0256a",
       "memle\u0256a"
     ],
+    "ERANAMES": [
+      "Hafi Yesu Va Do \u014bg\u0254",
+      "Yesu \u014a\u0254li"
+    ],
+    "ERAS": [
+      "hY",
+      "Y\u014b"
+    ],
     "MONTH": [
       "dzove",
       "dzodze",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ee-gh",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

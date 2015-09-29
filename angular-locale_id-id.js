@@ -16,6 +16,14 @@ $provide.value("$locale", {
       "Jumat",
       "Sabtu"
     ],
+    "ERANAMES": [
+      "Sebelum Masehi",
+      "M"
+    ],
+    "ERAS": [
+      "SM",
+      "M"
+    ],
     "MONTH": [
       "Januari",
       "Februari",
@@ -92,6 +100,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "id-id",
-  "pluralCat": function (n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "\u0411\u044d\u044d\u0442\u0438\u04a5\u0441\u044d",
       "\u0421\u0443\u0431\u0443\u043e\u0442\u0430"
     ],
+    "ERANAMES": [
+      "\u0431. \u044d. \u0438.",
+      "\u0431. \u044d"
+    ],
+    "ERAS": [
+      "\u0431. \u044d. \u0438.",
+      "\u0431. \u044d"
+    ],
     "MONTH": [
       "\u0422\u043e\u0445\u0441\u0443\u043d\u043d\u044c\u0443",
       "\u041e\u043b\u0443\u043d\u043d\u044c\u0443",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "sah",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

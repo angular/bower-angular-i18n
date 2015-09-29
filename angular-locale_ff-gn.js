@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "mawnde",
       "hoore-biir"
     ],
+    "ERANAMES": [
+      "Hade Iisa",
+      "Caggal Iisa"
+    ],
+    "ERAS": [
+      "H-I",
+      "C-I"
+    ],
     "MONTH": [
       "siilo",
       "colte",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ff-gn",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

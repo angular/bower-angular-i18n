@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "Wa katano",
       "Wa thanthat\u0169"
     ],
+    "ERANAMES": [
+      "Mbee wa Yes\u0169",
+      "\u0128tina wa Yes\u0169"
+    ],
+    "ERAS": [
+      "MY",
+      "IY"
+    ],
     "MONTH": [
       "Mwai wa mbee",
       "Mwai wa kel\u0129",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "kam",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

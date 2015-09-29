@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "Friidaach",
       "Samsdaach"
     ],
+    "ERANAMES": [
+      "v\u00fcr Chrestus",
+      "noh Chrestus"
+    ],
+    "ERAS": [
+      "v. Chr.",
+      "n. Chr."
+    ],
     "MONTH": [
       "Jannewa",
       "F\u00e4browa",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ksh-de",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

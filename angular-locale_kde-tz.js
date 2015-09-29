@@ -34,6 +34,14 @@ $provide.value("$locale", {
       "Liduva lyannyano na mavili",
       "Liduva litandi"
     ],
+    "ERANAMES": [
+      "Akanapawa Yesu",
+      "Nankuida Yesu"
+    ],
+    "ERAS": [
+      "AY",
+      "NY"
+    ],
     "MONTH": [
       "Mwedi Ntandi",
       "Mwedi wa Pili",
@@ -110,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "kde-tz",
-  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
