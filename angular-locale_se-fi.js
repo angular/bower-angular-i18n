@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "o.Kr.",
       "m.Kr."
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "o\u0111\u0111ajagem\u00e1nnu",
       "guovvam\u00e1nnu",
@@ -79,10 +78,6 @@ $provide.value("$locale", {
       "golggot",
       "sk\u00e1bma",
       "juovla"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "y MMMM d, EEEE",
     "longDate": "y MMMM d",

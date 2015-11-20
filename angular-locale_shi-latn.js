@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "da\u025b",
       "df\u025b"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "innayr",
       "b\u1e5bay\u1e5b",
@@ -80,10 +79,6 @@ $provide.value("$locale", {
       "nuw",
       "duj"
     ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",
     "medium": "d MMM, y HH:mm:ss",
@@ -94,7 +89,7 @@ $provide.value("$locale", {
     "shortTime": "HH:mm"
   },
   "NUMBER_FORMATS": {
-    "CURRENCY_SYM": "dh",
+    "CURRENCY_SYM": "\u20ac",
     "DECIMAL_SEP": ",",
     "GROUP_SEP": "\u00a0",
     "PATTERNS": [
