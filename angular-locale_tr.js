@@ -16,15 +16,6 @@ $provide.value("$locale", {
       "Cuma",
       "Cumartesi"
     ],
-    "ERANAMES": [
-      "Milattan \u00d6nce",
-      "Milattan Sonra"
-    ],
-    "ERAS": [
-      "M\u00d6",
-      "MS"
-    ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Ocak",
       "\u015eubat",
@@ -61,24 +52,6 @@ $provide.value("$locale", {
       "Eki",
       "Kas",
       "Ara"
-    ],
-    "STANDALONEMONTH": [
-      "Ocak",
-      "\u015eubat",
-      "Mart",
-      "Nisan",
-      "May\u0131s",
-      "Haziran",
-      "Temmuz",
-      "A\u011fustos",
-      "Eyl\u00fcl",
-      "Ekim",
-      "Kas\u0131m",
-      "Aral\u0131k"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "d MMMM y EEEE",
     "longDate": "d MMMM y",
@@ -119,6 +92,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "tr",
-  "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
