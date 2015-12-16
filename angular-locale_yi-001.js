@@ -42,6 +42,7 @@ $provide.value("$locale", {
       "BCE",
       "CE"
     ],
+    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "\u05d9\u05d0\u05b7\u05e0\u05d5\u05d0\u05b7\u05e8",
       "\u05e4\u05bf\u05e2\u05d1\u05e8\u05d5\u05d0\u05b7\u05e8",
@@ -79,6 +80,24 @@ $provide.value("$locale", {
       "\u05e0\u05d0\u05d5\u05d5\u05e2\u05de\u05d1\u05e2\u05e8",
       "\u05d3\u05e2\u05e6\u05e2\u05de\u05d1\u05e2\u05e8"
     ],
+    "STANDALONEMONTH": [
+      "\u05d9\u05d0\u05b7\u05e0\u05d5\u05d0\u05b7\u05e8",
+      "\u05e4\u05bf\u05e2\u05d1\u05e8\u05d5\u05d0\u05b7\u05e8",
+      "\u05de\u05e2\u05e8\u05e5",
+      "\u05d0\u05b7\u05e4\u05bc\u05e8\u05d9\u05dc",
+      "\u05de\u05d9\u05d9",
+      "\u05d9\u05d5\u05e0\u05d9",
+      "\u05d9\u05d5\u05dc\u05d9",
+      "\u05d0\u05d5\u05d9\u05d2\u05d5\u05e1\u05d8",
+      "\u05e1\u05e2\u05e4\u05bc\u05d8\u05e2\u05de\u05d1\u05e2\u05e8",
+      "\u05d0\u05e7\u05d8\u05d0\u05d1\u05e2\u05e8",
+      "\u05e0\u05d0\u05d5\u05d5\u05e2\u05de\u05d1\u05e2\u05e8",
+      "\u05d3\u05e2\u05e6\u05e2\u05de\u05d1\u05e2\u05e8"
+    ],
+    "WEEKENDRANGE": [
+      5,
+      6
+    ],
     "fullDate": "EEEE, d\u05d8\u05df MMMM y",
     "longDate": "d\u05d8\u05df MMMM y",
     "medium": "d\u05d8\u05df MMM y HH:mm:ss",
@@ -110,7 +129,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4\u00a0-",
+        "negPre": "-\u00a4\u00a0",
         "negSuf": "",
         "posPre": "\u00a4\u00a0",
         "posSuf": ""

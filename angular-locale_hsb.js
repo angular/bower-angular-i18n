@@ -42,6 +42,7 @@ $provide.value("$locale", {
       "p\u0159.Chr.n.",
       "po Chr.n."
     ],
+    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "januara",
       "februara",
@@ -78,6 +79,24 @@ $provide.value("$locale", {
       "okt.",
       "now.",
       "dec."
+    ],
+    "STANDALONEMONTH": [
+      "januar",
+      "februar",
+      "m\u011brc",
+      "apryl",
+      "meja",
+      "junij",
+      "julij",
+      "awgust",
+      "september",
+      "oktober",
+      "nowember",
+      "december"
+    ],
+    "WEEKENDRANGE": [
+      5,
+      6
     ],
     "fullDate": "EEEE, d. MMMM y",
     "longDate": "d. MMMM y",

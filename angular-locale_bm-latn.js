@@ -42,6 +42,7 @@ $provide.value("$locale", {
       "J.-C. \u0272\u025b",
       "ni J.-C."
     ],
+    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "zanwuye",
       "feburuye",
@@ -79,6 +80,24 @@ $provide.value("$locale", {
       "now",
       "des"
     ],
+    "STANDALONEMONTH": [
+      "zanwuye",
+      "feburuye",
+      "marisi",
+      "awirili",
+      "m\u025b",
+      "zuw\u025bn",
+      "zuluye",
+      "uti",
+      "s\u025btanburu",
+      "\u0254kut\u0254buru",
+      "nowanburu",
+      "desanburu"
+    ],
+    "WEEKENDRANGE": [
+      5,
+      6
+    ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",
     "medium": "d MMM, y HH:mm:ss",
@@ -89,7 +108,7 @@ $provide.value("$locale", {
     "shortTime": "HH:mm"
   },
   "NUMBER_FORMATS": {
-    "CURRENCY_SYM": "\u20ac",
+    "CURRENCY_SYM": "CFA",
     "DECIMAL_SEP": ".",
     "GROUP_SEP": ",",
     "PATTERNS": [
@@ -110,7 +129,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4-",
+        "negPre": "-\u00a4",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""

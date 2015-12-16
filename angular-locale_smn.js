@@ -42,6 +42,7 @@ $provide.value("$locale", {
       "BCE",
       "CE"
     ],
+    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "M01",
       "M02",
@@ -79,6 +80,24 @@ $provide.value("$locale", {
       "M11",
       "M12"
     ],
+    "STANDALONEMONTH": [
+      "u\u0111\u0111\u00e2ivem\u00e1\u00e1nu",
+      "kuov\u00e2m\u00e1\u00e1nu",
+      "njuh\u010d\u00e2m\u00e1\u00e1nu",
+      "cu\u00e1\u014buim\u00e1\u00e1nu",
+      "vyesim\u00e1\u00e1nu",
+      "kesim\u00e1\u00e1nu",
+      "syeinim\u00e1\u00e1nu",
+      "porgem\u00e1\u00e1nu",
+      "\u010doh\u010d\u00e2m\u00e1\u00e1nu",
+      "roovv\u00e2dm\u00e1\u00e1nu",
+      "skamm\u00e2m\u00e1\u00e1nu",
+      "juovl\u00e2m\u00e1\u00e1nu"
+    ],
+    "WEEKENDRANGE": [
+      5,
+      6
+    ],
     "fullDate": "y MMMM d, EEEE",
     "longDate": "y MMMM d",
     "medium": "y MMM d HH:mm:ss",
@@ -110,7 +129,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4\u00a0-",
+        "negPre": "-\u00a4\u00a0",
         "negSuf": "",
         "posPre": "\u00a4\u00a0",
         "posSuf": ""
