@@ -16,14 +16,6 @@ $provide.value("$locale", {
       "\uae08\uc694\uc77c",
       "\ud1a0\uc694\uc77c"
     ],
-    "ERANAMES": [
-      "\uae30\uc6d0\uc804",
-      "\uc11c\uae30"
-    ],
-    "ERAS": [
-      "\uae30\uc6d0\uc804",
-      "\uc11c\uae30"
-    ],
     "MONTH": [
       "1\uc6d4",
       "2\uc6d4",
@@ -100,6 +92,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ko",
-  "pluralCat": function(n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

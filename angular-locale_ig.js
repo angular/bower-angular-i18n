@@ -34,14 +34,6 @@ $provide.value("$locale", {
       "Fra\u1ecbdee",
       "Sat\u1ecddee"
     ],
-    "ERANAMES": [
-      "Tupu Kristi",
-      "Af\u1ecd Kristi"
-    ],
-    "ERAS": [
-      "T.K.",
-      "A.K."
-    ],
     "MONTH": [
       "Jen\u1ee5war\u1ecb",
       "Febr\u1ee5war\u1ecb",
@@ -118,6 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ig",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
