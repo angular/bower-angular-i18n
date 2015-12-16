@@ -24,7 +24,6 @@ $provide.value("$locale", {
       "BCE",
       "CE"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Genver",
       "C\u02bchwevrer",
@@ -61,24 +60,6 @@ $provide.value("$locale", {
       "Here",
       "Du",
       "Ker"
-    ],
-    "STANDALONEMONTH": [
-      "Genver",
-      "C\u02bchwevrer",
-      "Meurzh",
-      "Ebrel",
-      "Mae",
-      "Mezheven",
-      "Gouere",
-      "Eost",
-      "Gwengolo",
-      "Here",
-      "Du",
-      "Kerzu"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "y MMMM d, EEEE",
     "longDate": "y MMMM d",

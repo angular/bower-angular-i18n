@@ -22,17 +22,17 @@ function getVF(n, opt_precision) {
 $provide.value("$locale", {
   "DATETIME_FORMATS": {
     "AMPMS": [
-      "karoon",
-      "kooskoliny"
+      "Beet",
+      "Kemo"
     ],
     "DAY": [
-      "Kotisap",
-      "Kotaai",
-      "Koaeng\u2019",
-      "Kosomok",
-      "Koang\u2019wan",
-      "Komuut",
-      "Kolo"
+      "Betutab tisap",
+      "Betut netai",
+      "Betutab aeng\u2019",
+      "Betutab somok",
+      "Betutab ang\u2019wan",
+      "Betutab mut",
+      "Betutab lo"
     ],
     "ERANAMES": [
       "Amait kesich Jesu",
@@ -42,61 +42,42 @@ $provide.value("$locale", {
       "AM",
       "KO"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Mulgul",
-      "Ng\u2019atyaato",
-      "Kiptaamo",
-      "Iwootkuut",
-      "Mamuut",
-      "Paagi",
-      "Ng\u2019eiyeet",
-      "Rooptui",
-      "Bureet",
-      "Epeeso",
-      "Kipsuunde ne taai",
-      "Kipsuunde nebo aeng\u2019"
+      "Ng\u2019atyato",
+      "Kiptamo",
+      "Iwat kut",
+      "Ng\u2019eiyet",
+      "Waki",
+      "Roptui",
+      "Kipkogaga",
+      "Buret",
+      "Epeso",
+      "Kipsunde netai",
+      "Kipsunde nebo aeng"
     ],
     "SHORTDAY": [
-      "Kts",
-      "Kot",
-      "Koo",
-      "Kos",
-      "Koa",
-      "Kom",
-      "Kol"
+      "Tis",
+      "Tai",
+      "Aen",
+      "Som",
+      "Ang",
+      "Mut",
+      "Loh"
     ],
     "SHORTMONTH": [
       "Mul",
-      "Ngat",
-      "Taa",
-      "Iwo",
-      "Mam",
-      "Paa",
+      "Nga",
+      "Kip",
+      "Iwa",
       "Nge",
-      "Roo",
+      "Wak",
+      "Rop",
+      "Kog",
       "Bur",
       "Epe",
-      "Kpt",
-      "Kpa"
-    ],
-    "STANDALONEMONTH": [
-      "Mulgul",
-      "Ng\u2019atyaato",
-      "Kiptaamo",
-      "Iwootkuut",
-      "Mamuut",
-      "Paagi",
-      "Ng\u2019eiyeet",
-      "Rooptui",
-      "Bureet",
-      "Epeeso",
-      "Kipsuunde ne taai",
-      "Kipsuunde nebo aeng\u2019"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
+      "Tai",
+      "Aen"
     ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
@@ -129,7 +110,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4",
+        "negPre": "\u00a4-",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""

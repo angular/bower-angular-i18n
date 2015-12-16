@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "pr. Kr.",
       "p. Kr."
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "sije\u010dnja",
       "velja\u010de",
@@ -79,24 +78,6 @@ $provide.value("$locale", {
       "lis",
       "stu",
       "pro"
-    ],
-    "STANDALONEMONTH": [
-      "sije\u010danj",
-      "velja\u010da",
-      "o\u017eujak",
-      "travanj",
-      "svibanj",
-      "lipanj",
-      "srpanj",
-      "kolovoz",
-      "rujan",
-      "listopad",
-      "studeni",
-      "prosinac"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d. MMMM y.",
     "longDate": "d. MMMM y.",

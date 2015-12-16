@@ -22,8 +22,8 @@ function getVF(n, opt_precision) {
 $provide.value("$locale", {
   "DATETIME_FORMATS": {
     "AMPMS": [
-      "dopoledne",
-      "odpoledne"
+      "AM",
+      "PM"
     ],
     "DAY": [
       "ned\u011ble",
@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "p\u0159. n. l.",
       "n. l."
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "ledna",
       "\u00fanora",
@@ -79,24 +78,6 @@ $provide.value("$locale", {
       "\u0159\u00edj",
       "lis",
       "pro"
-    ],
-    "STANDALONEMONTH": [
-      "leden",
-      "\u00fanor",
-      "b\u0159ezen",
-      "duben",
-      "kv\u011bten",
-      "\u010derven",
-      "\u010dervenec",
-      "srpen",
-      "z\u00e1\u0159\u00ed",
-      "\u0159\u00edjen",
-      "listopad",
-      "prosinec"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d. MMMM y",
     "longDate": "d. MMMM y",

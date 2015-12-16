@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "pr. Kr.",
       "po Kr."
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "sausio",
       "vasario",
@@ -79,24 +78,6 @@ $provide.value("$locale", {
       "spal.",
       "lapkr.",
       "gruod."
-    ],
-    "STANDALONEMONTH": [
-      "sausis",
-      "vasaris",
-      "kovas",
-      "balandis",
-      "gegu\u017e\u0117",
-      "bir\u017eelis",
-      "liepa",
-      "rugpj\u016btis",
-      "rugs\u0117jis",
-      "spalis",
-      "lapkritis",
-      "gruodis"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "y 'm'. MMMM d 'd'., EEEE",
     "longDate": "y 'm'. MMMM d 'd'.",

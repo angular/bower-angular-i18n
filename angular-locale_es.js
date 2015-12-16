@@ -18,13 +18,12 @@ $provide.value("$locale", {
     ],
     "ERANAMES": [
       "antes de Cristo",
-      "despu\u00e9s de Cristo"
+      "anno D\u00f3mini"
     ],
     "ERAS": [
       "a. C.",
       "d. C."
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "enero",
       "febrero",
@@ -62,28 +61,10 @@ $provide.value("$locale", {
       "nov.",
       "dic."
     ],
-    "STANDALONEMONTH": [
-      "Enero",
-      "Febrero",
-      "Marzo",
-      "Abril",
-      "Mayo",
-      "Junio",
-      "Julio",
-      "Agosto",
-      "Septiembre",
-      "Octubre",
-      "Noviembre",
-      "Diciembre"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE, d 'de' MMMM 'de' y",
     "longDate": "d 'de' MMMM 'de' y",
-    "medium": "d MMM y H:mm:ss",
-    "mediumDate": "d MMM y",
+    "medium": "d 'de' MMM 'de' y H:mm:ss",
+    "mediumDate": "d 'de' MMM 'de' y",
     "mediumTime": "H:mm:ss",
     "short": "d/M/yy H:mm",
     "shortDate": "d/M/yy",

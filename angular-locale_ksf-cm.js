@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "d.Y.",
       "k.Y."
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "\u014bw\u00ed\u00ed a nt\u0254\u0301nt\u0254",
       "\u014bw\u00ed\u00ed ak\u01dd b\u025b\u0301\u025b",
@@ -79,24 +78,6 @@ $provide.value("$locale", {
       "\u014b10",
       "\u014b11",
       "\u014b12"
-    ],
-    "STANDALONEMONTH": [
-      "\u014bw\u00ed\u00ed a nt\u0254\u0301nt\u0254",
-      "\u014bw\u00ed\u00ed ak\u01dd b\u025b\u0301\u025b",
-      "\u014bw\u00ed\u00ed ak\u01dd r\u00e1\u00e1",
-      "\u014bw\u00ed\u00ed ak\u01dd nin",
-      "\u014bw\u00ed\u00ed ak\u01dd t\u00e1an",
-      "\u014bw\u00ed\u00ed ak\u01dd t\u00e1af\u0254k",
-      "\u014bw\u00ed\u00ed ak\u01dd t\u00e1ab\u025b\u025b",
-      "\u014bw\u00ed\u00ed ak\u01dd t\u00e1araa",
-      "\u014bw\u00ed\u00ed ak\u01dd t\u00e1anin",
-      "\u014bw\u00ed\u00ed ak\u01dd nt\u025bk",
-      "\u014bw\u00ed\u00ed ak\u01dd nt\u025bk di b\u0254\u0301k",
-      "\u014bw\u00ed\u00ed ak\u01dd nt\u025bk di b\u025b\u0301\u025b"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",

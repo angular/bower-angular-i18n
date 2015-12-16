@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "oyk",
       "ayk"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "ng\u0254n os\u00fa",
       "ng\u0254n b\u025b\u030c",
@@ -79,24 +78,6 @@ $provide.value("$locale", {
       "nga",
       "ngad",
       "ngab"
-    ],
-    "STANDALONEMONTH": [
-      "ng\u0254n os\u00fa",
-      "ng\u0254n b\u025b\u030c",
-      "ng\u0254n l\u00e1la",
-      "ng\u0254n nyina",
-      "ng\u0254n t\u00e1na",
-      "ng\u0254n sam\u0259na",
-      "ng\u0254n zamgb\u00e1la",
-      "ng\u0254n mwom",
-      "ng\u0254n ebul\u00fa",
-      "ng\u0254n aw\u00f3m",
-      "ng\u0254n aw\u00f3m ai dzi\u00e1",
-      "ng\u0254n aw\u00f3m ai b\u025b\u030c"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",

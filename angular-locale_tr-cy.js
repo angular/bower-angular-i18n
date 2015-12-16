@@ -24,7 +24,6 @@ $provide.value("$locale", {
       "M\u00d6",
       "MS"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Ocak",
       "\u015eubat",
@@ -61,24 +60,6 @@ $provide.value("$locale", {
       "Eki",
       "Kas",
       "Ara"
-    ],
-    "STANDALONEMONTH": [
-      "Ocak",
-      "\u015eubat",
-      "Mart",
-      "Nisan",
-      "May\u0131s",
-      "Haziran",
-      "Temmuz",
-      "A\u011fustos",
-      "Eyl\u00fcl",
-      "Ekim",
-      "Kas\u0131m",
-      "Aral\u0131k"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "d MMMM y EEEE",
     "longDate": "d MMMM y",

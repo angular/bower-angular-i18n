@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "MK",
       "TK"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Mweri wa mbere",
       "Mweri wa ka\u0129ri",
@@ -80,24 +79,6 @@ $provide.value("$locale", {
       "Imw",
       "Igi"
     ],
-    "STANDALONEMONTH": [
-      "Mweri wa mbere",
-      "Mweri wa ka\u0129ri",
-      "Mweri wa kathat\u0169",
-      "Mweri wa kana",
-      "Mweri wa gatano",
-      "Mweri wa gatantat\u0169",
-      "Mweri wa m\u0169gwanja",
-      "Mweri wa kanana",
-      "Mweri wa kenda",
-      "Mweri wa ik\u0169mi",
-      "Mweri wa ik\u0169mi na \u0169mwe",
-      "Mweri wa ik\u0169mi na Ka\u0129r\u0129"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
     "medium": "d MMM y h:mm:ss a",
@@ -129,7 +110,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4",
+        "negPre": "\u00a4-",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""

@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "p. n. e.",
       "n. e."
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "januar",
       "februar",
@@ -79,24 +78,6 @@ $provide.value("$locale", {
       "okt",
       "nov",
       "dec"
-    ],
-    "STANDALONEMONTH": [
-      "januar",
-      "februar",
-      "mart",
-      "april",
-      "maj",
-      "juni",
-      "juli",
-      "august",
-      "septembar",
-      "oktobar",
-      "novembar",
-      "decembar"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, dd. MMMM y.",
     "longDate": "dd. MMMM y.",
@@ -137,6 +118,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "bs",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (vf.v == 0 && i % 10 == 1 && i % 100 != 11 || vf.f % 10 == 1 && vf.f % 100 != 11) {    return PLURAL_CATEGORY.ONE;  }  if (vf.v == 0 && i % 10 >= 2 && i % 10 <= 4 && (i % 100 < 12 || i % 100 > 14) || vf.f % 10 >= 2 && vf.f % 10 <= 4 && (vf.f % 100 < 12 || vf.f % 100 > 14)) {    return PLURAL_CATEGORY.FEW;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

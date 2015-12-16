@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "KK",
       "BK"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Januali",
       "Febluali",
@@ -79,24 +78,6 @@ $provide.value("$locale", {
       "Okt",
       "Nov",
       "Des"
-    ],
-    "STANDALONEMONTH": [
-      "Januali",
-      "Febluali",
-      "Machi",
-      "Aplili",
-      "Mei",
-      "Juni",
-      "Julai",
-      "Agosti",
-      "Septemba",
-      "Oktoba",
-      "Novemba",
-      "Desemba"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",

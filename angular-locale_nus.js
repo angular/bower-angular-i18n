@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "AY",
       "\u0190Y"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Tiop thar p\u025bt",
       "P\u025bt",
@@ -80,24 +79,6 @@ $provide.value("$locale", {
       "Kur",
       "Tid"
     ],
-    "STANDALONEMONTH": [
-      "Tiop thar p\u025bt",
-      "P\u025bt",
-      "Du\u0254\u0331\u0254\u0331\u014b",
-      "Guak",
-      "Du\u00e4t",
-      "Kornyoot",
-      "Pay yie\u0331tni",
-      "Tho\u0331o\u0331r",
-      "T\u025b\u025br",
-      "Laath",
-      "Kur",
-      "Tio\u0331p in di\u0331i\u0331t"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",
     "medium": "d MMM y h:mm:ss a",
@@ -129,7 +110,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4",
+        "negPre": "\u00a4-",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""

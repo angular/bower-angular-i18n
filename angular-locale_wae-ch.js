@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "v. Chr.",
       "n. Chr"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Jenner",
       "Hornig",
@@ -80,24 +79,6 @@ $provide.value("$locale", {
       "Win",
       "Chr"
     ],
-    "STANDALONEMONTH": [
-      "Jenner",
-      "Hornig",
-      "M\u00e4rze",
-      "Abrille",
-      "Meije",
-      "Br\u00e1\u010det",
-      "Heiwet",
-      "\u00d6ig\u0161te",
-      "Herb\u0161tm\u00e1net",
-      "W\u00edm\u00e1net",
-      "Winterm\u00e1net",
-      "Chri\u0161tm\u00e1net"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE, d. MMMM y",
     "longDate": "d. MMMM y",
     "medium": "d. MMM y HH:mm:ss",
@@ -129,7 +110,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4\u00a0",
+        "negPre": "\u00a4\u00a0-",
         "negSuf": "",
         "posPre": "\u00a4\u00a0",
         "posSuf": ""

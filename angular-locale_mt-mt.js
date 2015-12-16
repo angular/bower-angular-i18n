@@ -24,7 +24,6 @@ $provide.value("$locale", {
       "QK",
       "WK"
     ],
-    "FIRSTDAYOFWEEK": 6,
     "MONTH": [
       "Jannar",
       "Frar",
@@ -62,24 +61,6 @@ $provide.value("$locale", {
       "Nov",
       "Di\u010b"
     ],
-    "STANDALONEMONTH": [
-      "Jannar",
-      "Frar",
-      "Marzu",
-      "April",
-      "Mejju",
-      "\u0120unju",
-      "Lulju",
-      "Awwissu",
-      "Settembru",
-      "Ottubru",
-      "Novembru",
-      "Di\u010bembru"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE, d 'ta'\u2019 MMMM y",
     "longDate": "d 'ta'\u2019 MMMM y",
     "medium": "dd MMM y HH:mm:ss",
@@ -111,7 +92,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4",
+        "negPre": "\u00a4-",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""

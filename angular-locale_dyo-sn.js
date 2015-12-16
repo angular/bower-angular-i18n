@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "ArY",
       "AtY"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Sanvie",
       "F\u00e9birie",
@@ -79,24 +78,6 @@ $provide.value("$locale", {
       "Ok",
       "No",
       "De"
-    ],
-    "STANDALONEMONTH": [
-      "Sanvie",
-      "F\u00e9birie",
-      "Mars",
-      "Aburil",
-      "Mee",
-      "Sue\u014b",
-      "S\u00fauyee",
-      "Ut",
-      "Settembar",
-      "Oktobar",
-      "Novembar",
-      "Disambar"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",

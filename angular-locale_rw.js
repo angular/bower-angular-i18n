@@ -42,7 +42,6 @@ $provide.value("$locale", {
       "BCE",
       "CE"
     ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Mutarama",
       "Gashyantare",
@@ -80,24 +79,6 @@ $provide.value("$locale", {
       "ugu.",
       "uku."
     ],
-    "STANDALONEMONTH": [
-      "Mutarama",
-      "Gashyantare",
-      "Werurwe",
-      "Mata",
-      "Gicuransi",
-      "Kamena",
-      "Nyakanga",
-      "Kanama",
-      "Nzeli",
-      "Ukwakira",
-      "Ugushyingo",
-      "Ukuboza"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE, y MMMM dd",
     "longDate": "y MMMM d",
     "medium": "y MMM d HH:mm:ss",
@@ -129,7 +110,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4\u00a0",
+        "negPre": "\u00a4\u00a0-",
         "negSuf": "",
         "posPre": "\u00a4\u00a0",
         "posSuf": ""
