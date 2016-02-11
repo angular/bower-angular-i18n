@@ -24,7 +24,7 @@ function processFiles(err, files) {
 					if (err) {
 						return console.log(err);
 					}
-					var result = data.replace(/"DATETIME_FORMATS": {/g, "\"DATETIME_FORMATS\": {\n" + '"START": "' + firstDay[item] + '",');
+					var result = data.replace(/"DATETIME_FORMATS": {/g, "\"DATETIME_FORMATS\": {\n" + '    "START": "' + firstDay[item] + '",');
 
 					fs.writeFile('../'+f, result, 'utf8', function (err) {
 						if (err) return console.log(err);
