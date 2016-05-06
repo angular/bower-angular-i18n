@@ -99,6 +99,7 @@ angular.module("ngLocale", [], ["$provide", function($provide) {
             ],
             "fullDate": "y M d EEEE",
             "longDate": "y M d ",
+            "calendarMonthTitle": "y M",
             "medium": "y/MM/dd H:mm:ss",
             "mediumDate": "y/MM/dd",
             "mediumTime": "H:mm:ss",
