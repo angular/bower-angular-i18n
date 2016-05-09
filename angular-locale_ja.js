@@ -82,6 +82,7 @@ $provide.value("$locale", {
     ],
     "fullDate": "y\u5e74M\u6708d\u65e5EEEE",
     "longDate": "y\u5e74M\u6708d\u65e5",
+    "calendarMonthTitle": "y\u5e74M\u6708d",
     "medium": "y/MM/dd H:mm:ss",
     "mediumDate": "y/MM/dd",
     "mediumTime": "H:mm:ss",
