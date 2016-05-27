@@ -22,8 +22,8 @@ function getVF(n, opt_precision) {
 $provide.value("$locale", {
   "DATETIME_FORMATS": {
     "AMPMS": [
-      "dop.",
-      "odp."
+      "dopoledne",
+      "odpoledne"
     ],
     "DAY": [
       "ned\u011ble",
