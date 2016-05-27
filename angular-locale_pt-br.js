@@ -17,8 +17,8 @@ $provide.value("$locale", {
       "s\u00e1bado"
     ],
     "ERANAMES": [
-      "antes de Cristo",
-      "depois de Cristo"
+      "Antes de Cristo",
+      "Ano do Senhor"
     ],
     "ERAS": [
       "a.C.",

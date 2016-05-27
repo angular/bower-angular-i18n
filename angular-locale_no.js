@@ -17,8 +17,8 @@ $provide.value("$locale", {
       "l\u00f8rdag"
     ],
     "ERANAMES": [
-      "f\u00f8r Kristus",
-      "etter Kristus"
+      "f.Kr.",
+      "e.Kr."
     ],
     "ERAS": [
       "f.Kr.",
