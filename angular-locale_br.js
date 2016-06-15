@@ -17,12 +17,12 @@ $provide.value("$locale", {
       "Sadorn"
     ],
     "ERANAMES": [
-      "a-raok Jezuz-Krist",
-      "goude Jezuz-Krist"
+      "BCE",
+      "CE"
     ],
     "ERAS": [
-      "a-raok J.K.",
-      "goude J.K."
+      "BCE",
+      "CE"
     ],
     "FIRSTDAYOFWEEK": 0,
     "MONTH": [
@@ -49,18 +49,18 @@ $provide.value("$locale", {
       "Sad."
     ],
     "SHORTMONTH": [
-      "Gen.",
-      "C\u02bchwe.",
-      "Meur.",
-      "Ebr.",
+      "Gen",
+      "C\u02bchwe",
+      "Meur",
+      "Ebr",
       "Mae",
-      "Mezh.",
-      "Goue.",
+      "Mezh",
+      "Goue",
       "Eost",
-      "Gwen.",
+      "Gwen",
       "Here",
       "Du",
-      "Kzu."
+      "Ker"
     ],
     "STANDALONEMONTH": [
       "Genver",
