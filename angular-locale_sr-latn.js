@@ -35,8 +35,8 @@ $provide.value("$locale", {
       "subota"
     ],
     "ERANAMES": [
-      "pre nove ere",
-      "nove ere"
+      "Pre nove ere",
+      "Nove ere"
     ],
     "ERAS": [
       "p. n. e.",
