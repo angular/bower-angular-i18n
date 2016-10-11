@@ -34,15 +34,6 @@ $provide.value("$locale", {
       "fredag",
       "l\u00f6rdag"
     ],
-    "ERANAMES": [
-      "f\u00f6re Kristus",
-      "efter Kristus"
-    ],
-    "ERAS": [
-      "f.Kr.",
-      "e.Kr."
-    ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "januari",
       "februari",
@@ -67,38 +58,20 @@ $provide.value("$locale", {
       "l\u00f6r"
     ],
     "SHORTMONTH": [
-      "jan.",
-      "feb.",
-      "mars",
-      "apr.",
+      "jan",
+      "feb",
+      "mar",
+      "apr",
       "maj",
-      "juni",
-      "juli",
-      "aug.",
-      "sep.",
-      "okt.",
-      "nov.",
-      "dec."
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "okt",
+      "nov",
+      "dec"
     ],
-    "STANDALONEMONTH": [
-      "januari",
-      "februari",
-      "mars",
-      "april",
-      "maj",
-      "juni",
-      "juli",
-      "augusti",
-      "september",
-      "oktober",
-      "november",
-      "december"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
-    "fullDate": "EEEE d MMMM y",
+    "fullDate": "EEEE'en' 'den' d:'e' MMMM y",
     "longDate": "d MMMM y",
     "medium": "d MMM y HH:mm:ss",
     "mediumDate": "d MMM y",
@@ -137,7 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "sv-fi",
-  "localeID": "sv_FI",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

@@ -22,8 +22,8 @@ function getVF(n, opt_precision) {
 $provide.value("$locale", {
   "DATETIME_FORMATS": {
     "AMPMS": [
-      "de la ma\u00f1ana",
-      "de la tardi"
+      "AM",
+      "PM"
     ],
     "DAY": [
       "domingu",
@@ -34,37 +34,28 @@ $provide.value("$locale", {
       "vienres",
       "s\u00e1badu"
     ],
-    "ERANAMES": [
-      "a.C.",
-      "despu\u00e9s de Cristu"
-    ],
-    "ERAS": [
-      "a.C.",
-      "d.C."
-    ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "de xineru",
       "de febreru",
       "de marzu",
-      "d\u2019abril",
+      "d'abril",
       "de mayu",
       "de xunu",
       "de xunetu",
-      "d\u2019agostu",
+      "d'agostu",
       "de setiembre",
-      "d\u2019ochobre",
+      "d'ochobre",
       "de payares",
-      "d\u2019avientu"
+      "d'avientu"
     ],
     "SHORTDAY": [
       "dom",
       "llu",
       "mar",
-      "mi\u00e9",
+      "mie",
       "xue",
       "vie",
-      "s\u00e1b"
+      "sab"
     ],
     "SHORTMONTH": [
       "xin",
@@ -80,25 +71,7 @@ $provide.value("$locale", {
       "pay",
       "avi"
     ],
-    "STANDALONEMONTH": [
-      "xineru",
-      "febreru",
-      "marzu",
-      "abril",
-      "mayu",
-      "xunu",
-      "xunetu",
-      "agostu",
-      "setiembre",
-      "ochobre",
-      "payares",
-      "avientu"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
-    "fullDate": "EEEE, d MMMM 'de' y",
+    "fullDate": "EEEE, dd MMMM 'de' y",
     "longDate": "d MMMM 'de' y",
     "medium": "d MMM y HH:mm:ss",
     "mediumDate": "d MMM y",
@@ -137,7 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "ast",
-  "localeID": "ast",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
