@@ -22,8 +22,8 @@ function getVF(n, opt_precision) {
 $provide.value("$locale", {
   "DATETIME_FORMATS": {
     "AMPMS": [
-      "Mambia",
-      "Mog"
+      "Ma/Mo",
+      "Mambia/Mog"
     ],
     "DAY": [
       "Chumapiri",
@@ -34,15 +34,6 @@ $provide.value("$locale", {
       "Ichuma",
       "Esabato"
     ],
-    "ERANAMES": [
-      "Yeso ataiborwa",
-      "Yeso kaiboirwe"
-    ],
-    "ERAS": [
-      "YA",
-      "YK"
-    ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Chanuari",
       "Feburari",
@@ -80,32 +71,14 @@ $provide.value("$locale", {
       "Nob",
       "Dis"
     ],
-    "STANDALONEMONTH": [
-      "Chanuari",
-      "Feburari",
-      "Machi",
-      "Apiriri",
-      "Mei",
-      "Juni",
-      "Chulai",
-      "Agosti",
-      "Septemba",
-      "Okitoba",
-      "Nobemba",
-      "Disemba"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
-    "medium": "d MMM y HH:mm:ss",
+    "medium": "d MMM y h:mm:ss a",
     "mediumDate": "d MMM y",
-    "mediumTime": "HH:mm:ss",
-    "short": "dd/MM/y HH:mm",
+    "mediumTime": "h:mm:ss a",
+    "short": "dd/MM/y h:mm a",
     "shortDate": "dd/MM/y",
-    "shortTime": "HH:mm"
+    "shortTime": "h:mm a"
   },
   "NUMBER_FORMATS": {
     "CURRENCY_SYM": "Ksh",
@@ -129,7 +102,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4",
+        "negPre": "\u00a4-",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""
@@ -137,7 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "guz",
-  "localeID": "guz",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

@@ -28,26 +28,17 @@ $provide.value("$locale", {
     "DAY": [
       "Mderot ee are",
       "Mderot ee kuni",
-      "Mderot ee ong\u2019wan",
+      "Mderot ee ong'wan",
       "Mderot ee inet",
       "Mderot ee ile",
       "Mderot ee sapa",
       "Mderot ee kwe"
     ],
-    "ERANAMES": [
-      "Kabla ya Christo",
-      "Baada ya Christo"
-    ],
-    "ERAS": [
-      "KK",
-      "BK"
-    ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Lapa le obo",
       "Lapa le waare",
       "Lapa le okuni",
-      "Lapa le ong\u2019wan",
+      "Lapa le ong'wan",
       "Lapa le imet",
       "Lapa le ile",
       "Lapa le sapa",
@@ -80,32 +71,14 @@ $provide.value("$locale", {
       "Tob",
       "Tow"
     ],
-    "STANDALONEMONTH": [
-      "Lapa le obo",
-      "Lapa le waare",
-      "Lapa le okuni",
-      "Lapa le ong\u2019wan",
-      "Lapa le imet",
-      "Lapa le ile",
-      "Lapa le sapa",
-      "Lapa le isiet",
-      "Lapa le saal",
-      "Lapa le tomon",
-      "Lapa le tomon obo",
-      "Lapa le tomon waare"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
-    ],
     "fullDate": "EEEE, d MMMM y",
     "longDate": "d MMMM y",
-    "medium": "d MMM y HH:mm:ss",
+    "medium": "d MMM y h:mm:ss a",
     "mediumDate": "d MMM y",
-    "mediumTime": "HH:mm:ss",
-    "short": "dd/MM/y HH:mm",
+    "mediumTime": "h:mm:ss a",
+    "short": "dd/MM/y h:mm a",
     "shortDate": "dd/MM/y",
-    "shortTime": "HH:mm"
+    "shortTime": "h:mm a"
   },
   "NUMBER_FORMATS": {
     "CURRENCY_SYM": "Ksh",
@@ -129,7 +102,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-\u00a4",
+        "negPre": "\u00a4-",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""
@@ -137,7 +110,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "saq-ke",
-  "localeID": "saq_KE",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

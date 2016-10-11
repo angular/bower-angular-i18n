@@ -16,15 +16,6 @@ $provide.value("$locale", {
       "vendredi",
       "samedi"
     ],
-    "ERANAMES": [
-      "avant J\u00e9sus-Christ",
-      "apr\u00e8s J\u00e9sus-Christ"
-    ],
-    "ERAS": [
-      "av. J.-C.",
-      "ap. J.-C."
-    ],
-    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "janvier",
       "f\u00e9vrier",
@@ -61,24 +52,6 @@ $provide.value("$locale", {
       "oct.",
       "nov.",
       "d\u00e9c."
-    ],
-    "STANDALONEMONTH": [
-      "janvier",
-      "f\u00e9vrier",
-      "mars",
-      "avril",
-      "mai",
-      "juin",
-      "juillet",
-      "ao\u00fbt",
-      "septembre",
-      "octobre",
-      "novembre",
-      "d\u00e9cembre"
-    ],
-    "WEEKENDRANGE": [
-      5,
-      6
     ],
     "fullDate": "EEEE d MMMM y",
     "longDate": "d MMMM y",
@@ -119,7 +92,6 @@ $provide.value("$locale", {
     ]
   },
   "id": "fr-bl",
-  "localeID": "fr_BL",
-  "pluralCat": function(n, opt_precision) {  var i = n | 0;  if (i == 0 || i == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+  "pluralCat": function (n, opt_precision) {  var i = n | 0;  if (i == 0 || i == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);
