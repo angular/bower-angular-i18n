@@ -1,6 +1,6 @@
 {
   "name": "angular-i18n",
-  "version": "1.5.9-build.5095+sha.bdf9602",
+  "version": "1.5.9-build.5096+sha.3b7f29f",
   "description": "AngularJS module for internationalization",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
