@@ -4,8 +4,8 @@ var PLURAL_CATEGORY = {ZERO: "zero", ONE: "one", TWO: "two", FEW: "few", MANY: "
 $provide.value("$locale", {
   "DATETIME_FORMATS": {
     "AMPMS": [
-      "e paradites",
-      "e pasdites"
+      "paradite",
+      "pasdite"
     ],
     "DAY": [
       "e diel",
