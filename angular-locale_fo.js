@@ -22,8 +22,8 @@ function getVF(n, opt_precision) {
 $provide.value("$locale", {
   "DATETIME_FORMATS": {
     "AMPMS": [
-      "AM",
-      "PM"
+      "um fyrrapartur",
+      "um seinnapartur"
     ],
     "DAY": [
       "sunnudagur",
@@ -35,7 +35,7 @@ $provide.value("$locale", {
       "leygardagur"
     ],
     "ERANAMES": [
-      "fyri Krist",
+      "fyrir Krist",
       "eftir Krist"
     ],
     "ERAS": [
@@ -58,27 +58,27 @@ $provide.value("$locale", {
       "desember"
     ],
     "SHORTDAY": [
-      "sun.",
-      "m\u00e1n.",
-      "t\u00fds.",
-      "mik.",
-      "h\u00f3s.",
-      "fr\u00ed.",
-      "ley."
+      "sun",
+      "m\u00e1n",
+      "t\u00fds",
+      "mik",
+      "h\u00f3s",
+      "fr\u00ed",
+      "ley"
     ],
     "SHORTMONTH": [
-      "jan.",
-      "feb.",
-      "mar.",
-      "apr.",
+      "jan",
+      "feb",
+      "mar",
+      "apr",
       "mai",
-      "jun.",
-      "jul.",
-      "aug.",
-      "sep.",
-      "okt.",
-      "nov.",
-      "des."
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "okt",
+      "nov",
+      "des"
     ],
     "STANDALONEMONTH": [
       "januar",
@@ -98,17 +98,17 @@ $provide.value("$locale", {
       5,
       6
     ],
-    "fullDate": "EEEE, d. MMMM y",
-    "longDate": "d. MMMM y",
-    "medium": "dd.MM.y HH:mm:ss",
-    "mediumDate": "dd.MM.y",
+    "fullDate": "EEEE dd MMMM y",
+    "longDate": "d. MMM y",
+    "medium": "dd-MM-y HH:mm:ss",
+    "mediumDate": "dd-MM-y",
     "mediumTime": "HH:mm:ss",
-    "short": "dd.MM.yy HH:mm",
-    "shortDate": "dd.MM.yy",
+    "short": "dd-MM-yy HH:mm",
+    "shortDate": "dd-MM-yy",
     "shortTime": "HH:mm"
   },
   "NUMBER_FORMATS": {
-    "CURRENCY_SYM": "kr.",
+    "CURRENCY_SYM": "kr",
     "DECIMAL_SEP": ",",
     "GROUP_SEP": ".",
     "PATTERNS": [
@@ -129,10 +129,10 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "-",
-        "negSuf": "\u00a0\u00a4",
-        "posPre": "",
-        "posSuf": "\u00a0\u00a4"
+        "negPre": "\u00a4-",
+        "negSuf": "",
+        "posPre": "\u00a4",
+        "posSuf": ""
       }
     ]
   },
