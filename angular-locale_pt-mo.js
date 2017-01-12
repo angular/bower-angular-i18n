@@ -40,13 +40,13 @@ $provide.value("$locale", {
       "dezembro"
     ],
     "SHORTDAY": [
-      "domingo",
-      "segunda",
-      "ter\u00e7a",
-      "quarta",
-      "quinta",
-      "sexta",
-      "s\u00e1bado"
+      "dom",
+      "seg",
+      "ter",
+      "qua",
+      "qui",
+      "sex",
+      "s\u00e1b"
     ],
     "SHORTMONTH": [
       "jan",
@@ -82,12 +82,12 @@ $provide.value("$locale", {
     ],
     "fullDate": "EEEE, d 'de' MMMM 'de' y",
     "longDate": "d 'de' MMMM 'de' y",
-    "medium": "dd/MM/y h:mm:ss a",
+    "medium": "dd/MM/y HH:mm:ss",
     "mediumDate": "dd/MM/y",
-    "mediumTime": "h:mm:ss a",
-    "short": "dd/MM/yy h:mm a",
+    "mediumTime": "HH:mm:ss",
+    "short": "dd/MM/yy HH:mm",
     "shortDate": "dd/MM/yy",
-    "shortTime": "h:mm a"
+    "shortTime": "HH:mm"
   },
   "NUMBER_FORMATS": {
     "CURRENCY_SYM": "MOP",

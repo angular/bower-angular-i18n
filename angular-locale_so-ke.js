@@ -42,7 +42,7 @@ $provide.value("$locale", {
       "CK",
       "CD"
     ],
-    "FIRSTDAYOFWEEK": 6,
+    "FIRSTDAYOFWEEK": 0,
     "MONTH": [
       "Bisha Koobaad",
       "Bisha Labaad",
@@ -100,12 +100,12 @@ $provide.value("$locale", {
     ],
     "fullDate": "EEEE, MMMM dd, y",
     "longDate": "dd MMMM y",
-    "medium": "dd-MMM-y HH:mm:ss",
+    "medium": "dd-MMM-y h:mm:ss a",
     "mediumDate": "dd-MMM-y",
-    "mediumTime": "HH:mm:ss",
-    "short": "dd/MM/yy HH:mm",
+    "mediumTime": "h:mm:ss a",
+    "short": "dd/MM/yy h:mm a",
     "shortDate": "dd/MM/yy",
-    "shortTime": "HH:mm"
+    "shortTime": "h:mm a"
   },
   "NUMBER_FORMATS": {
     "CURRENCY_SYM": "Ksh",

@@ -40,13 +40,13 @@ $provide.value("$locale", {
       "dezembro"
     ],
     "SHORTDAY": [
-      "domingo",
-      "segunda",
-      "ter\u00e7a",
-      "quarta",
-      "quinta",
-      "sexta",
-      "s\u00e1bado"
+      "dom",
+      "seg",
+      "ter",
+      "qua",
+      "qui",
+      "sex",
+      "s\u00e1b"
     ],
     "SHORTMONTH": [
       "jan",

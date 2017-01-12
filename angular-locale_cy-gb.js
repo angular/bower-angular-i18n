@@ -51,7 +51,7 @@ $provide.value("$locale", {
     "SHORTMONTH": [
       "Ion",
       "Chwef",
-      "Maw",
+      "Mawrth",
       "Ebrill",
       "Mai",
       "Meh",
