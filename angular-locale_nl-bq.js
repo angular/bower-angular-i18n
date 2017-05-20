@@ -67,18 +67,18 @@ $provide.value("$locale", {
       "za"
     ],
     "SHORTMONTH": [
-      "jan.",
-      "feb.",
-      "mrt.",
-      "apr.",
+      "jan",
+      "feb",
+      "mrt",
+      "apr",
       "mei",
-      "jun.",
-      "jul.",
-      "aug.",
-      "sep.",
-      "okt.",
-      "nov.",
-      "dec."
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "okt",
+      "nov",
+      "dec"
     ],
     "STANDALONEMONTH": [
       "januari",
