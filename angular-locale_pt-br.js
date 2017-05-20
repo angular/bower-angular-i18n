@@ -10,11 +10,11 @@ $provide.value("$locale", {
     "DAY": [
       "domingo",
       "segunda-feira",
-      "ter\u00e7a-feira",
+      "terça-feira",
       "quarta-feira",
       "quinta-feira",
       "sexta-feira",
-      "s\u00e1bado"
+      "sábado"
     ],
     "ERANAMES": [
       "antes de Cristo",
@@ -28,7 +28,7 @@ $provide.value("$locale", {
     "MONTH": [
       "janeiro",
       "fevereiro",
-      "mar\u00e7o",
+      "março",
       "abril",
       "maio",
       "junho",
@@ -46,7 +46,7 @@ $provide.value("$locale", {
       "qua",
       "qui",
       "sex",
-      "s\u00e1b"
+      "sáb"
     ],
     "SHORTMONTH": [
       "jan",
