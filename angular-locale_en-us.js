@@ -101,11 +101,13 @@ $provide.value("$locale", {
     "fullDate": "EEEE, MMMM d, y",
     "longDate": "MMMM d, y",
     "medium": "MMM d, y h:mm:ss a",
+    "longMedium": "MMMM d, yyyy h:mm a",
     "mediumDate": "MMM d, y",
     "mediumTime": "h:mm:ss a",
     "short": "M/d/yy h:mm a",
     "shortDate": "M/d/yy",
-    "shortTime": "h:mm a"
+    "shortTime": "h:mm a",
+    "shortDay": "MM/dd"
   },
   "NUMBER_FORMATS": {
     "CURRENCY_SYM": "$",
