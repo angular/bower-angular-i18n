@@ -82,11 +82,11 @@ $provide.value("$locale", {
     ],
     "fullDate": "EEEE\u060c d MMMM\u060c y",
     "longDate": "d MMMM\u060c y",
-    "medium": "dd\u200f/MM\u200f/y h:mm:ss a",
-    "mediumDate": "dd\u200f/MM\u200f/y",
+    "medium": "\u200fdd\u200f/MM\u200f/y h:mm:ss a",
+    "mediumDate": "\u200fdd\u200f/MM\u200f/y",
     "mediumTime": "h:mm:ss a",
-    "short": "d\u200f/M\u200f/y h:mm a",
-    "shortDate": "d\u200f/M\u200f/y",
+    "short": "\u200fd\u200f/M\u200f/y h:mm a",
+    "shortDate": "\u200fd\u200f/M\u200f/y",
     "shortTime": "h:mm a"
   },
   "NUMBER_FORMATS": {
