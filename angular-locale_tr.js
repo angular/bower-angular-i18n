@@ -90,7 +90,7 @@ $provide.value("$locale", {
     "shortTime": "HH:mm"
   },
   "NUMBER_FORMATS": {
-    "CURRENCY_SYM": "TL",
+    "CURRENCY_SYM": "₺",
     "DECIMAL_SEP": ",",
     "GROUP_SEP": ".",
     "PATTERNS": [
