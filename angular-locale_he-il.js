@@ -58,12 +58,12 @@ $provide.value("$locale", {
       "\u05d3\u05e6\u05de\u05d1\u05e8"
     ],
     "SHORTDAY": [
-      "\u05d9\u05d5\u05dd \u05d0\u05f3",
-      "\u05d9\u05d5\u05dd \u05d1\u05f3",
-      "\u05d9\u05d5\u05dd \u05d2\u05f3",
-      "\u05d9\u05d5\u05dd \u05d3\u05f3",
-      "\u05d9\u05d5\u05dd \u05d4\u05f3",
-      "\u05d9\u05d5\u05dd \u05d5\u05f3",
+      "\u05d0\u05f3",
+      "\u05d1\u05f3",
+      "\u05d2\u05f3",
+      "\u05d3\u05f3",
+      "\u05d4\u05f3",
+      "\u05d5\u05f3",
       "\u05e9\u05d1\u05ea"
     ],
     "SHORTMONTH": [
