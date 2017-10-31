@@ -1,80 +1,98 @@
 'use strict';
 angular.module("ngLocale", [], ["$provide", function($provide) {
     var PLURAL_CATEGORY = {ZERO: "zero", ONE: "one", TWO: "two", FEW: "few", MANY: "many", OTHER: "other"};
+    function getDecimals(n) {
+        n = n + '';
+        var i = n.indexOf('.');
+        return (i == -1) ? 0 : n.length - i - 1;
+    }
+
+    function getVF(n, opt_precision) {
+        var v = opt_precision;
+
+        if (undefined === v) {
+            v = Math.min(getDecimals(n), 3);
+        }
+
+        var base = Math.pow(10, v);
+        var f = ((n * base) | 0) % base;
+        return {v: v, f: f};
+    }
+
     $provide.value("$locale", {
         "DATETIME_FORMATS": {
             "AMPMS": [
-                "a. m.",
-                "p. m."
+                "AM",
+                "PM"
             ],
             "DAY": [
-                "domingo",
-                "lunes",
-                "martes",
-                "mi\u00e9rcoles",
-                "jueves",
-                "viernes",
-                "s\u00e1bado"
+                "domenica",
+                "luned\u00ec",
+                "marted\u00ec",
+                "mercoled\u00ec",
+                "gioved\u00ec",
+                "venerd\u00ec",
+                "sabato"
             ],
             "ERANAMES": [
-                "antes de Cristo",
-                "despu\u00e9s de Cristo"
+                "a.C.",
+                "d.C."
             ],
             "ERAS": [
-                "a. C.",
-                "d. C."
+                "aC",
+                "dC"
             ],
             "FIRSTDAYOFWEEK": 0,
             "MONTH": [
-                "enero",
-                "febrero",
+                "gennaio",
+                "febbraio",
                 "marzo",
-                "abril",
-                "mayo",
-                "junio",
-                "julio",
+                "aprile",
+                "maggio",
+                "giugno",
+                "luglio",
                 "agosto",
-                "septiembre",
-                "octubre",
-                "noviembre",
-                "diciembre"
+                "settembre",
+                "ottobre",
+                "novembre",
+                "dicembre"
             ],
             "SHORTDAY": [
-                "dom.",
-                "lun.",
-                "mar.",
-                "mi\u00e9.",
-                "jue.",
-                "vie.",
-                "s\u00e1b."
+                "dom",
+                "lun",
+                "mar",
+                "mer",
+                "gio",
+                "ven",
+                "sab"
             ],
             "SHORTMONTH": [
-                "ene.",
-                "feb.",
-                "mar.",
-                "abr.",
-                "may.",
-                "jun.",
-                "jul.",
-                "ago.",
-                "sept.",
-                "oct.",
-                "nov.",
-                "dic."
+                "gen",
+                "feb",
+                "mar",
+                "apr",
+                "mag",
+                "giu",
+                "lug",
+                "ago",
+                "set",
+                "ott",
+                "nov",
+                "dic"
             ],
             "STANDALONEMONTH": [
-                "Enero",
-                "Febrero",
+                "Gennaio",
+                "Febbraio",
                 "Marzo",
-                "Abril",
-                "Mayo",
-                "Junio",
-                "Julio",
+                "Aprile",
+                "Maggio",
+                "Giugno",
+                "Luglio",
                 "Agosto",
-                "Septiembre",
-                "Octubre",
-                "Noviembre",
-                "Diciembre"
+                "Settembre",
+                "Ottobre",
+                "Novembre",
+                "Dicembre"
             ],
             "WEEKENDRANGE": [
                 5,
@@ -118,8 +136,8 @@ angular.module("ngLocale", [], ["$provide", function($provide) {
                 }
             ]
         },
-        "id": "es-en",
-        "localeID": "es-EN",
-        "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
+        "id": "it-us",
+        "localeID": "it-US",
+        "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
     });
 }]);

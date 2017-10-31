@@ -22,77 +22,77 @@ angular.module("ngLocale", [], ["$provide", function($provide) {
     $provide.value("$locale", {
         "DATETIME_FORMATS": {
             "AMPMS": [
-                "AM",
-                "PM"
+                "vorm.",
+                "nachm."
             ],
             "DAY": [
-                "domenica",
-                "luned\u00ec",
-                "marted\u00ec",
-                "mercoled\u00ec",
-                "gioved\u00ec",
-                "venerd\u00ec",
-                "sabato"
+                "Sonntag",
+                "Montag",
+                "Dienstag",
+                "Mittwoch",
+                "Donnerstag",
+                "Freitag",
+                "Samstag"
             ],
             "ERANAMES": [
-                "a.C.",
-                "d.C."
+                "v. Chr.",
+                "n. Chr."
             ],
             "ERAS": [
-                "aC",
-                "dC"
+                "v. Chr.",
+                "n. Chr."
             ],
-            "FIRSTDAYOFWEEK": 0,
+            "FIRSTDAYOFWEEK": 6,
             "MONTH": [
-                "gennaio",
-                "febbraio",
-                "marzo",
-                "aprile",
-                "maggio",
-                "giugno",
-                "luglio",
-                "agosto",
-                "settembre",
-                "ottobre",
-                "novembre",
-                "dicembre"
+                "Januar",
+                "Februar",
+                "M\u00e4rz",
+                "April",
+                "Mai",
+                "Juni",
+                "Juli",
+                "August",
+                "September",
+                "Oktober",
+                "November",
+                "Dezember"
             ],
             "SHORTDAY": [
-                "dom",
-                "lun",
-                "mar",
-                "mer",
-                "gio",
-                "ven",
-                "sab"
+                "So.",
+                "Mo.",
+                "Di.",
+                "Mi.",
+                "Do.",
+                "Fr.",
+                "Sa."
             ],
             "SHORTMONTH": [
-                "gen",
-                "feb",
-                "mar",
-                "apr",
-                "mag",
-                "giu",
-                "lug",
-                "ago",
-                "set",
-                "ott",
-                "nov",
-                "dic"
+                "Jan.",
+                "Feb.",
+                "M\u00e4rz",
+                "Apr.",
+                "Mai",
+                "Juni",
+                "Juli",
+                "Aug.",
+                "Sep.",
+                "Okt.",
+                "Nov.",
+                "Dez."
             ],
             "STANDALONEMONTH": [
-                "Gennaio",
-                "Febbraio",
-                "Marzo",
-                "Aprile",
-                "Maggio",
-                "Giugno",
-                "Luglio",
-                "Agosto",
-                "Settembre",
-                "Ottobre",
-                "Novembre",
-                "Dicembre"
+                "Januar",
+                "Februar",
+                "M\u00e4rz",
+                "April",
+                "Mai",
+                "Juni",
+                "Juli",
+                "August",
+                "September",
+                "Oktober",
+                "November",
+                "Dezember"
             ],
             "WEEKENDRANGE": [
                 5,
@@ -136,8 +136,8 @@ angular.module("ngLocale", [], ["$provide", function($provide) {
                 }
             ]
         },
-        "id": "it-en",
-        "localeID": "it-EN",
+        "id": "de-us",
+        "localeID": "de-US",
         "pluralCat": function(n, opt_precision) {  var i = n | 0;  var vf = getVF(n, opt_precision);  if (i == 1 && vf.v == 0) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
     });
 }]);
