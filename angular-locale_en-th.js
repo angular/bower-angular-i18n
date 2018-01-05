@@ -129,9 +129,9 @@ angular.module("ngLocale", [], ["$provide", function($provide) {
                     "maxFrac": 2,
                     "minFrac": 2,
                     "minInt": 1,
-                    "negPre": "-",
+                    "negPre": "-\u00a4",
                     "negSuf": "",
-                    "posPre": "",
+                    "posPre": "-\u00a4",
                     "posSuf": ""
                 }
             ]
