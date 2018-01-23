@@ -131,7 +131,7 @@ angular.module("ngLocale", [], ["$provide", function($provide) {
                     "minInt": 1,
                     "negPre": "-\u00a4",
                     "negSuf": "",
-                    "posPre": "-\u00a4",
+                    "posPre": "\u00a4",
                     "posSuf": ""
                 }
             ]
