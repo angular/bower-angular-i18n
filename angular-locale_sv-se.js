@@ -42,7 +42,7 @@ $provide.value("$locale", {
       "f.Kr.",
       "e.Kr."
     ],
-    "FIRSTDAYOFWEEK": 0,
+    "FIRSTDAYOFWEEK": 1,
     "MONTH": [
       "januari",
       "februari",
